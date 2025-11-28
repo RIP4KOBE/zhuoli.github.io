@@ -230,7 +230,8 @@ h6 {
   height: 100vh;
   background: url("../img/zhuoli_background_intro.gif") top center;
   background-size: 100% auto;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+  background-position: 0 -300px; /* 向上移动50px */
 }
 
 #hero:before {
