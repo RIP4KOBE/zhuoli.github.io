@@ -1,0 +1,399 @@
+╭─── Claude Code v2.1.76 ──────────────────────────────────────────────────────╮
+│                                                    │ Tips for getting        │
+│                  Welcome back qq!                  │ started                 │
+│                                                    │ ✔ Run /init to create … │
+│                       ▐▛███▜▌                      │ ─────────────────────── │
+│                      ▝▜█████▛▘                     │ Recent activity         │
+│                        ▘▘ ▝▝                       │ No recent activity      │
+│       Sonnet 4.6 · Claude Pro ·                    │                         │
+│       sunzhenggemini@gmail.com's Organization      │                         │
+│                 ~/zhuoli.github.io                 │                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+❯ analyze the whole project and tell me what it is about. and initialize the    
+calude.MD                                                                       
+
+● Explore(Explore project structure)
+  ⎿  Done (17 tool uses · 31.0k tokens · 29s)
+  (ctrl+o to expand)
+
+● Now let me create the CLAUDE.md file.
+
+● Write(CLAUDE.md)
+  ⎿  Wrote 60 lines to CLAUDE.md
+       1 # CLAUDE.md
+       2 
+       3 ## Project Overview
+       4 
+       5 This is **Zhuo Li's personal academic portfolio website** hosted
+          on GitHub Pages at `zhuoli.github.io`. It showcases research, p
+         ublications, and background as a Ph.D. student in humanoid robot
+         ics at CUHK (The Chinese University of Hong Kong).
+       6 
+       7 ## Tech Stack
+       8 
+       9 - **Type:** Static HTML/CSS/JS — no build process, no framework,
+          no package manager
+      10 - **Base Template:** iPortfolio by BootstrapMade (v3.10.0)
+     … +50 lines (ctrl+o to expand)
+
+● Project Summary
+
+  zhuoli.github.io is a personal academic portfolio website for Zhuo Li, a Ph.D.
+   student specializing in humanoid robotics at CUHK. Key points:
+
+  - Purpose: Showcases research interests, peer-reviewed publications, and CV —
+  focused on embodied intelligence, humanoid manipulation, and
+  imitation/reinforcement learning
+  - Stack: Pure static HTML/CSS/JS — single index.html file, Bootstrap 5,
+  vanilla JS, all dependencies vendored locally, no build process
+  - Base: iPortfolio Bootstrap template (v3.10.0) customized with personal
+  content
+  - Hosting: GitHub Pages (master branch → live site)
+  - Rich media: ~420 MB of robot demonstration GIFs/videos (bipedal,
+  quadrupedal, humanoid robots)
+
+  CLAUDE.md has been created with full project context for future sessions.
+
+✻ Brewed for 51s
+
+❯ Now I need to update the content of my personal website, imrpove the          
+claude.md file for this purpose.                                                
+
+● Read 2 files (ctrl+o to expand)
+
+● Explore(Read full index.html content)
+  ⎿  Done (7 tool uses · 42.2k tokens · 36s)
+  (ctrl+o to expand)
+
+● Now I have everything I need. Let me write an improved CLAUDE.md tailored for
+  content updates.
+
+● Write(CLAUDE.md)
+  ⎿  Added 116 lines, removed 42 lines
+        2  
+        3  ## Project Overview
+        4  
+        5 -This is **Zhuo Li's personal academic portfolio website** host
+          -ed on GitHub Pages at `zhuoli.github.io`. It showcases researc
+          -h, publications, and background as a Ph.D. student in humanoid
+          - robotics at CUHK (The Chinese University of Hong Kong).      
+        5 +Personal academic portfolio website for **Zhuo Li (李卓)**, a 
+          +third-year Ph.D. student at the CLOVER Lab, The Chinese Univer
+          +sity of Hong Kong (CUHK), specializing in humanoid robotics. D
+          +eployed via GitHub Pages.                                     
+        6  
+        7 +---                                                           
+        8 +                                                              
+        9  ## Tech Stack
+       10  
+        9 -- **Type:** Static HTML/CSS/JS — no build process, no framewor
+          -k, no package manager                                         
+       11 +- **Type:** Static HTML/CSS/JS — single `index.html` file, no 
+          +build step                                                    
+       12  - **Base Template:** iPortfolio by BootstrapMade (v3.10.0)
+       11 -- **CSS Framework:** Bootstrap 5.2.3                          
+       12 -- **JavaScript:** Vanilla ES6+ (no jQuery)                    
+       13 -- **Fonts:** Google Fonts (Open Sans, Raleway, Poppins)       
+       14 -- **Icons:** Bootstrap Icons, Boxicons                        
+       15 -- **Key Libraries (all vendored locally):**                   
+       16 -  - AOS (scroll animations)                                   
+       17 -  - GLightbox (lightbox gallery)                              
+       18 -  - Swiper (carousel)                                         
+       19 -  - Isotope (filtering)                                       
+       20 -  - Typed.js (text animation)                                 
+       21 -  - PureCounter (number counters)                             
+       13 +- **CSS:** Bootstrap 5.2.3 + `assets/css/style.css`           
+       14 +- **JS:** Vanilla ES6+ (`assets/js/main.js`) + vendored librar
+          +ies in `assets/vendor/`                                       
+       15 +- **Deployment:** Push to `master` → live on GitHub Pages     
+       16  
+       23 -## Project Structure                                          
+       17 +**Do not modify** files under `assets/vendor/` — these are ups
+          +tream libraries.                                              
+       18  
+       19 +---                                                           
+       20 +                                                              
+       21 +## File Map                                                   
+       22 +                                                              
+       23  ```
+       26 -zhuoli.github.io/                                             
+       27 -├── index.html          # Entire website — single HTML file (~
+          -993 lines)                                                    
+       28 -├── assets/                                                   
+       29 -│   ├── css/style.css   # Main stylesheet                     
+       30 -│   ├── js/main.js      # Vanilla JS for interactivity        
+       31 -│   ├── img/            # Robot demo images/GIFs (~420 MB)    
+       32 -│   ├── files/          # PDF CV files                        
+       33 -│   ├── scss/           # SCSS source (not compiled in-project
+          -)                                                             
+       34 -│   └── vendor/         # All third-party libraries (local cop
+          -ies)                                                          
+       35 -└── forms/              # PHP contact form (requires pro licen
+          -se)                                                           
+       24 +index.html              # Entire website — edit this for all c
+          +ontent changes                                                
+       25 +assets/css/style.css    # Custom styles                       
+       26 +assets/js/main.js       # Custom JS                           
+       27 +assets/img/             # Images and GIFs (robot demos, profil
+          +e photo)                                                      
+       28 +assets/files/           # PDF CV files (CV_Zhuo_Li_CUHK_Public
+          +.pdf)                                                         
+       29 +assets/vendor/          # Third-party libraries — do not edit 
+       30 +forms/                  # PHP contact form stub (requires pro 
+          +license)                                                      
+       31  ```
+       32  
+       38 -## Website Sections                                           
+       33 +---                                                           
+       34  
+       40 -1. **Hero** — Tagline and animated introduction               
+       41 -2. **About** — Bio, research interests, contact info          
+       42 -3. **Research Interests** — Embodied intelligence, humanoid ro
+          -botics, imitation/RL                                          
+       43 -4. **Publications** — Peer-reviewed papers with images, abstra
+          -cts, and links                                                
+       44 -5. **CV** — Link to PDF resume                                
+       35 +## Content Editing Guide                                      
+       36  
+       46 -## Key Facts                                                  
+       37 +All content lives in `index.html`. Sections are identified by 
+          +`id` attributes.                                              
+       38  
+       48 -- All content is in `index.html` — editing the site means edit
+          -ing this single file                                          
+       49 -- No build step: changes to HTML/CSS/JS are immediately deploy
+          -able                                                          
+       50 -- Deployed via GitHub Pages — pushing to `master` branch updat
+          -es the live site                                              
+       51 -- Contact form is a stub (requires pro license from BootstrapM
+          -ade)                                                          
+       52 -- Large binary assets (robot GIFs/videos) live in `assets/img/
+          -`                                                             
+       39 +### Section Map                                               
+       40  
+       54 -## Development Notes                                          
+       41 +| Section | HTML id | Description |                           
+       42 +|---|---|---|                                                 
+       43 +| Header/Profile | `#header` | Name, photo, social links, nav 
+          +|                                                             
+       44 +| Hero | `#hero` | Name + tagline |                           
+       45 +| About | `#about` | Bio paragraph, contact links |           
+       46 +| Research Interests | `#researchhighlights` | Research focus 
+          +paragraph |                                                   
+       47 +| Publications | `#publications` | All papers grouped by type 
+          +|                                                             
+       48 +| Academic Services | `#services` | Journal/conference reviewe
+          +r lists |                                                     
+       49 +| CV link | nav | Links to `assets/files/CV_Zhuo_Li_CUHK_Publi
+          +c.pdf` |                                                      
+       50  
+       56 -- To update content (publications, bio, CV), edit `index.html`
+          - directly                                                     
+       57 -- Custom styles go in `assets/css/style.css`                  
+       58 -- Custom JS goes in `assets/js/main.js`                       
+       59 -- Do not modify files under `assets/vendor/` — these are upstr
+          -eam libraries                                                 
+       60 -- SCSS source is in `assets/scss/` but the project does not ha
+          -ve a local compile step; edit `style.css` directly for style c
+          -hanges                                                        
+       51   No newline at end of file
+       52 +### Social Links (appear in header and about section)         
+       53 +- Google Scholar: `https://scholar.google.com/citations?user=V
+          +kan_K4AAAAJ&hl=en`                                            
+       54 +- Twitter/X: `https://x.com/ZhuoLi771402`                     
+       55 +- YouTube: `https://www.youtube.com/@kkxx1210`                
+       56 +- Email: `zli@mae.cuhk.edu.hk`                                
+       57 +                                                              
+       58 +---                                                           
+       59 +                                                              
+       60 +## Current Content                                            
+       61 +                                                              
+       62 +### Bio (in `#about`)                                         
+       63 +Third-year Ph.D. at CLOVER Lab, CUHK. Master's from HUST. Coll
+          +aborated with Prof. Sylvain Calinon and Prof. Darwin G. Caldwe
+          +ll. Previously interned at UBTECH Robotics. Goal: general-purp
+          +ose humanoid assistants.                                      
+       64 +                                                              
+       65 +### Research Focus (in `#researchhighlights`)                 
+       66 +Embodied intelligence and manipulation skill learning for huma
+          +noid robots. Intersection of imitation learning, reinforcement
+          + learning, foundation models, and robotics. Emphasis on dexter
+          +ous grasping, bimanual coordination, and whole-body motion gen
+          +eration.                                                      
+       67 +                                                              
+       68 +### Publications                                              
+       69 +                                                              
+       70 +**Peer-Reviewed Journals:**                                   
+       71 +1. "Language-Guided Dexterous Functional Grasping..." — TASE 2
+          +025 — Zhuo Li et al.                                          
+       72 +2. "Human–Humanoid Robots' Cross-Embodiment Behavior-Skill Tra
+          +nsfer..." — RAM 2025 — Junjia Liu, Zhuo Li et al.             
+       73 +3. "Planning Multi-fingered Grasps with Reachability Awareness
+          +..." — JIRS 2023 — Zhuo Li et al.                             
+       74 +4. "Human-like redundancy resolution..." — Advanced Engineerin
+          +g Informatics 2022 — Shiqi Li, ..., Zhuo Li et al.            
+       75 +                                                              
+       76 +**Journals in Review:**                                       
+       77 +1. "Towards Deploying VLA without Fine-Tuning: Plug-and-Play I
+          +nference-Time VLA Policy Steering via Embodied Evolutionary Di
+          +ffusion" — Submitted to RAL 2025 — Zhuo Li et al.             
+       78 +                                                              
+       79 +**Conference Papers:**                                        
+       80 +1. "ManiDP: Manipulability-Aware Diffusion Policy..." — IROS 2
+          +025 — Zhuo Li et al.                                          
+       81 +2. "Instruction-following Long-horizon Manipulation by LLM-Emp
+          +owered Symbolic Planner" — ROBIO 2024 — Zhihao Li, ..., Zhuo L
+          +i et al.                                                      
+       82 +                                                              
+       83 +### Academic Services (in `#services`)                        
+       84 +**Journal Reviewer:** TASE, RA-L, RAM, TCDS                   
+       85 +**Conference Reviewer:** ICRA, IROS, Humanoids, CASE          
+       86 +                                                              
+       87 +---                                                           
+       88 +                                                              
+       89 +## Publication HTML Pattern                                   
+       90 +                                                              
+       91 +When adding a new publication, follow this structure (adapt fr
+          +om existing entries):                                         
+       92 +                                                              
+       93 +```html                                                       
+       94 +<!-- Paper entry -->                                          
+       95 +<div class="row publication-item">                            
+       96 +  <div class="col-lg-3">                                      
+       97 +    <img src="assets/img/YOUR_FIGURE.png" class="img-fluid" al
+          +t="">                                                         
+       98 +    <!-- or a GIF/video thumbnail -->                         
+       99 +  </div>                                                      
+      100 +  <div class="col-lg-9">                                      
+      101 +    <h5>PAPER TITLE 🆒</h5>                                   
+      102 +    <p><em>Author1, Author2, ...</em></p>                     
+      103 +    <p><strong>Venue Name (ABBR), YEAR</strong></p>           
+      104 +    <p>Abstract text here.</p>                                
+      105 +    <p>                                                       
+      106 +      <a href="PAPER_URL">[Paper]</a> /                       
+      107 +      <a href="VIDEO_URL">[Video]</a> /                       
+      108 +      <a href="PROJECT_URL">[Project Website]</a>             
+      109 +    </p>                                                      
+      110 +  </div>                                                      
+      111 +</div>                                                        
+      112 +```                                                           
+      113 +                                                              
+      114 +Emoji legend used in publications:                            
+      115 +- 🆒 — Highlights                                             
+      116 +- `*` — Equal Contribution                                    
+      117 +- `†` — Project Lead                                          
+      118 +- `⚡` — Equal Advising                                       
+      119 +                                                              
+      120 +---                                                           
+      121 +                                                              
+      122 +## Common Tasks                                               
+      123 +                                                              
+      124 +**Add a new publication:**                                    
+      125 +1. Add a paper figure/GIF to `assets/img/`                    
+      126 +2. Insert a new entry in `#publications` under the appropriate
+          + subsection (Journals / In Review / Conference)               
+      127 +                                                              
+      128 +**Update CV:**                                                
+      129 +1. Replace `assets/files/CV_Zhuo_Li_CUHK_Public.pdf` with the 
+          +new file (keep the same filename, or update all references)   
+      130 +                                                              
+      131 +**Update bio or research description:**                       
+      132 +- Edit the paragraph text in `#about` or `#researchhighlights`
+      133 +                                                              
+      134 +**Add a new section (Honors, Talks):**                        
+      135 +- These sections exist in the nav but are currently hidden/com
+          +mented out in the HTML — uncomment and populate as needed     
+      136   No newline at end of file
+
+● CLAUDE.md is updated. Here's what's now captured:
+
+  - Full section map — every section with its HTML id so future edits can target
+   the right place immediately
+  - Current content inventory — bio, research focus, all 7 publications with
+  venues and years, social links, reviewer services
+  - Publication HTML pattern — a reusable template for adding new papers,
+  including the emoji legend convention
+  - Common tasks guide — step-by-step for the most frequent updates: new paper,
+  CV update, bio edit, unhiding hidden sections (Honors, Talks)
+
+  Ready to start updating the actual content — what do you want to change first?
+
+✻ Cogitated for 1m 25s
+
+❯ Modify the motivation title to Insghts, and change the image to insights.pdf, 
+ and also compose corresponding text to describe the insights figure            
+
+● Let me find the motivation section in the HTML.
+
+● Searched for 4 patterns, read 1 file (ctrl+o to expand)
+
+● Now I have the full picture. The #researchhighlights section currently has
+  <h2>Research Interests</h2> with just a text paragraph and no image. Let me
+  update it to:
+  1. Rename the title to "Insights"
+  2. Add insights.pdf as an embedded figure
+  3. Write matching descriptive text
+
+● Update(index.html)
+  ⎿  Added 9 lines, removed 3 lines
+      130      <section id="researchhighlights" class="facts">
+      131          <div class="container">
+      132            <div class="section-title">
+      133 -            <h2>Research Interests</h2>                       
+      133 +            <h2>Insights</h2>                                 
+      134              <p>
+      135                  My current research focuses on embodied intell
+           igence and manipulation skill learning for humanoid robots, ai
+           ming to enable them to perform complex tasks in unstructured e
+           nvironments, particularly in domestic settings. I work at the 
+           intersection of imitation learning, reinforcement learning, fo
+           undation models, and robotics, with an emphasis on dexterous g
+           rasping, bimanual coordination, and whole-body motion generati
+           on.
+      136 -                                                              
+      137 -                                                              
+      136              </p>
+      137 +            <div class="text-center my-3">                    
+      138 +              <object data="assets/img/insights.pdf" type="app
+          +lication/pdf" width="100%" style="height:480px; border:none;">
+      139 +                <img src="assets/img/insights.pdf" class="img-
+          +fluid" alt="Research Insights">                               
+      140 +              </object>                                       
+      141 +            </div>                                            
+      142 +            <p>                                               
+      143 +                The figure above illustrates the core insights
+          + motivating my research agenda. Deploying humanoid robots in r
+          +eal-world domestic environments demands tight integration of t
+          +hree capabilities: <strong>perceiving</strong> rich semantic c
+          +ontext from unstructured scenes, <strong>reasoning</strong> ab
+          +out task structure and physical constraints, and <strong>actin
+          +g</strong> with dexterous, whole-body coordination. Existing a
+          +pproaches treat these as separate modules, leaving a gap betwe
+          +en high-level task understanding and low-level motor execution
+          +. My work bridges this gap by developing unified policy framew
+          +orks that couple language-grounded perception with manipulatio
+          +n skill learning — enabling robots to generalize across novel 
+          +objects, diverse instructions, and unseen environments without
+          + task-specific retraining.                                    
+      144 +            </p>                                              
+      145            </div>
+      146          </div>
+      147  
+
+● Done. Here's what changed in index.html (around line 130):
+
+  - Title: Research Interests → Insights
+  - Figure: Added an <object> embed for assets/img/insights.pdf (full-width,
+  480px tall), with an <img> fallback for browsers that don't support inline
+  PDFs
+  - Text: Kept the existing intro paragraph, then added a new paragraph below
+  the figure describing the three-pillar insight (perceive → reason → act) and
+  how your work bridges high-level task understanding with low-level motor
+  execution
+
+  Make sure insights.pdf is placed at assets/img/insights.pdf. If you'd like to
+  tweak the descriptive text to match what the figure actually shows, just share
+   what's in the figure and I'll revise it.
+
+✻ Brewed for 51s
