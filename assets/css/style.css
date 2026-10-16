@@ -1234,7 +1234,7 @@ section {
   display: grid;
   grid-template-columns: 240px minmax(0, 1fr);
   gap: 26px;
-  align-items: center;
+  align-items: start;
   padding: 25px 0;
   border-bottom: 1px solid #dce5ee;
 }
@@ -1244,7 +1244,10 @@ section {
 }
 
 .publication-visual {
+  position: relative;
   display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
   border-radius: 8px;
   overflow: hidden;
   background: #fff;
@@ -1252,11 +1255,14 @@ section {
 }
 
 .publication-visual img {
+  position: absolute;
+  inset: 0;
   display: block;
   width: 100%;
-  max-height: 190px;
+  height: 100%;
   object-fit: contain;
-  padding: 6px;
+  object-position: center;
+  padding: 8px;
 }
 
 .publication-placeholder {
@@ -1438,11 +1444,8 @@ button:focus-visible {
   }
 
   .publication-visual {
-    width: min(100%, 420px);
-  }
-
-  .publication-visual img {
-    max-height: 220px;
+    width: min(100%, 360px);
+    justify-self: center;
   }
 
   .publication-placeholder {
