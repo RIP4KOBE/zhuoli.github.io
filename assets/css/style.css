@@ -1343,6 +1343,32 @@ section {
   background: #e5f3fb;
 }
 
+.opensource-heading {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.opensource-heading .github-stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  color: #70531a;
+  background: #fff7df;
+  border: 1px solid #ead8a6;
+  border-radius: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.opensource-heading .github-stars:hover {
+  background: #ffefbc;
+}
+
 .contact-dialog {
   position: fixed;
   max-width: min(420px, calc(100vw - 32px));
