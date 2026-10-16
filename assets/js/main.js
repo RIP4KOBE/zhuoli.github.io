@@ -7,6 +7,26 @@
 (function() {
   "use strict";
 
+  // Accessible contact QR dialogs, with image links as the no-dialog fallback.
+  document.querySelectorAll('[data-contact-modal]').forEach(link => {
+    link.addEventListener('click', event => {
+      const dialog = document.getElementById(link.dataset.contactModal);
+      if (dialog && typeof dialog.showModal === 'function') {
+        event.preventDefault();
+        dialog.showModal();
+      }
+    });
+  });
+  document.querySelectorAll('.contact-dialog').forEach(dialog => {
+    dialog.querySelector('[data-close-dialog]').addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', event => {
+      if (event.target === dialog) {
+        const rect = dialog.getBoundingClientRect();
+        if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close();
+      }
+    });
+  });
+
   /**
    * Easy selector helper function
    */

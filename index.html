@@ -6,7 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Zhuo Li</title>
-  <meta content="Zhuo Li's Homepage" name="description">
+  <meta content="Zhuo Li — humanoid robotics, dexterous grasping, bimanual manipulation and whole-body manipulation. Publications, invited talks and open-source projects." name="description">
+  <link rel="canonical" href="https://rip4kobe.github.io/zhuoli.github.io/">
   <meta content="Zhuo Li" name="keywords">
 
   <!-- Favicons -->
@@ -45,14 +46,14 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/zhuoli_profile.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/zhuoli_profile.jpg" alt="Zhuo Li" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Zhuo Li</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://scholar.google.com/citations?user=Vkan_K4AAAAJ&hl=en" class="google-scholar"><i class="bx bxl-google"></i></a>
-          <a href="https://x.com/ZhuoLi771402" class="twitter"><i class="bx bxl-twitter"></i></a>
-<!--          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>-->
-<!--          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
-          <a href="https://www.youtube.com/@kkxx1210" class="Youtube"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://scholar.google.com/citations?user=Vkan_K4AAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar"><i class="bx bxl-google" aria-hidden="true"></i></a>
+          <a href="https://x.com/ZhuoLi771402" aria-label="Twitter / X" title="Twitter / X"><i class="bx bxl-twitter" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/@kkxx1210" aria-label="YouTube" title="YouTube"><i class="bx bxl-youtube" aria-hidden="true"></i></a>
+          <a href="assets/img/wechat-qr.png" data-contact-modal="wechat-contact" aria-label="Connect on WeChat" title="WeChat"><i class="bi bi-wechat" aria-hidden="true"></i></a>
+          <a href="https://www.xiaohongshu.com/user/profile/5b6c5de0f7e8b90498e0f7fb" aria-label="Xiaohongshu" title="Xiaohongshu"><span class="social-red" lang="zh-CN">红</span></a>
         </div>
       </div>
 
@@ -61,10 +62,10 @@
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#news" class="nav-link scrollto"><i class="bx bx-news"></i> <span>News</span></a></li>
-          <li><a href="#honors" class="nav-link scrollto"><i class="bx bx-award"></i> <span>Honors</span></a></li>
           <li><a href="#talks" class="nav-link scrollto"><i class="bx bx-video-recording"></i> <span>Talks</span></a></li>
           <li><a href="#publications" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Publications</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Teaching & Services</span></a></li>
+          <li><a href="#opensource" class="nav-link scrollto"><i class="bx bx-code-alt"></i> <span>Open Source</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Academic Services</span></a></li>
           <li><a href="assets/files/CV_Zhuo_Li_CUHK_Public.pdf" class="nav-link scrollto"><i class="bx bxs-file-doc"></i> <span>CV</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -82,7 +83,6 @@
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
 
@@ -93,7 +93,7 @@
         <div class="row">
 <!--          <div class="col-lg-4" data-aos="fade-right">-->
           <div class="col-lg-4">
-            <img src="assets/img/with_walker.jpg" class="img-fluid w-100 h-auto" alt="">
+            <img src="assets/img/with_walker.jpg" class="img-fluid w-100 h-auto" alt="Zhuo Li with the Walker humanoid robot">
           </div>
 <!--          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">-->
           <div class="col-lg-8 pt-4 pt-lg-0 content">
@@ -105,876 +105,251 @@
             <p>
               My long-term goal is to develop general-purpose humanoid assistants that can <strong>understand</strong>, <strong>adapt</strong>, and <strong>evolve</strong> alongside humans. I am always happy to chat or collaborate with people with different backgrounds. If you are interested in my work, please feel free to reach out!
             </p>
-            </p>
 
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Google Scholar:</strong> <span><a href="https://scholar.google.com/citations?user=Vkan_K4AAAAJ&hl=en">CLICK HERE</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Youtube:</strong> <span><a href="https://www.youtube.com/@kkxx1210">CLICK HERE</a></span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Twitter:</strong> <span><a href="https://x.com/ZhuoLi771402">CLICK HERE</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:zli@mae.cuhk.edu.hk">CLICK HERE</a></span></li>
-                </ul>
-              </div>
+            <div class="row contact-links">
+              <div class="col-lg-6"><ul>
+                <li><i class="bi bi-chevron-right" aria-hidden="true"></i><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=Vkan_K4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Publications</a></li>
+                <li><i class="bi bi-chevron-right" aria-hidden="true"></i><strong>YouTube:</strong> <a href="https://www.youtube.com/@kkxx1210" target="_blank" rel="noopener noreferrer">Videos</a></li>
+                <li><i class="bi bi-chevron-right" aria-hidden="true"></i><strong>WeChat:</strong> <a href="assets/img/wechat-qr.png" data-contact-modal="wechat-contact">Scan to connect</a></li>
+              </ul></div>
+              <div class="col-lg-6"><ul>
+                <li><i class="bi bi-chevron-right" aria-hidden="true"></i><strong>Twitter / X:</strong> <a href="https://x.com/ZhuoLi771402" target="_blank" rel="noopener noreferrer">Profile</a></li>
+                <li><i class="bi bi-chevron-right" aria-hidden="true"></i><strong>Email:</strong> <a href="mailto:zli@mae.cuhk.edu.hk">zli@mae.cuhk.edu.hk</a></li>
+                <li><i class="bi bi-chevron-right" aria-hidden="true"></i><strong>Xiaohongshu:</strong> <a href="https://www.xiaohongshu.com/user/profile/5b6c5de0f7e8b90498e0f7fb" target="_blank" rel="noopener noreferrer">Profile</a> <a class="contact-qr-link" href="assets/img/xiaohongshu-qr.png" data-contact-modal="xiaohongshu-contact" aria-label="Show Xiaohongshu QR code">QR</a></li>
+              </ul></div>
             </div>
           </div>
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section>
 
-<!--    &lt;!&ndash; ======= Facts Section ======= &ndash;&gt;-->
     <section id="researchhighlights" class="facts">
-        <div class="container">
-          <div class="section-title">
-            <h2>Research Interests</h2>
-            <p>
-                My current research focuses on embodied intelligence and manipulation skill learning for humanoid robots, aiming to enable them to perform complex tasks in unstructured environments, particularly in domestic settings. I work at the intersection of imitation learning, reinforcement learning, foundation models, and robotics, with an emphasis on dexterous grasping, bimanual coordination, and whole-body motion generation.
+      <div class="container"><div class="section-title">
+        <h2>Research Interests</h2>
+        <p>My research focuses on embodied intelligence and manipulation skill learning for humanoid robots. I work at the intersection of imitation learning, reinforcement learning, foundation models and robotics, with an emphasis on dexterous grasping, bimanual manipulation and whole-body manipulation in unstructured environments.</p>
+      </div></div>
+    </section>
 
-
-            </p>
-          </div>
-        </div>
-
-<!--        <div class="container">-->
-<!--          <div class="section-title">            -->
-<!--            <h2>Research Highlights</h2>-->
-<!--            <p>  -->
-<!--            My work has enabled a bipedal robot Cassie to perform robust, agile, and highly dynamic maneuvers such as walking, jumping, and running, and to safely and autonomously navigate in unknown and cluttered environments.-->
-<!--            I have also expanded the capacities of quadrupedal robots beyond locomotion by performing various loco-manipulation tasks, such as functioning as guide dogs, soccer ball shooters and goalkeepers, collaborative agents, and more.-->
-<!--            </p>-->
-<!--          </div>-->
-<!--  -->
-<!--        <div id="container">-->
-<!--          <a href="#cassierun"><img src="assets/img/run_jump_walk_normalspeed.gif" alt="" height="180"></a>-->
-<!--          <a href="#cassiewalk"><img src="assets/img/recovery_gantry.gif" alt="" height="180"></a>-->
-<!--          <a href="#cassienav"><img src="assets/img/nav-intro.gif" alt="" height="180"></a>-->
-<!--          <a href='#guidedog'><img src="assets/img/human_operating_gif.gif" alt="" height="180"></a>-->
-<!--&lt;!&ndash;          <a href="#goalkeeping"><img src="assets/img/a1-cheetah-match-gif.gif" alt="" width="" height="200"></a>&ndash;&gt;-->
-<!--        </div>-->
-<!--      </div>-->
-
-<!--    </section>&lt;!&ndash; End Facts Section &ndash;&gt;-->
-
-    <!-- ======= News Section ======= -->
     <section id="news" class="about section-bg">
       <div class="container">
-        <div class="section-title">
-          <h2>Latest News</h2>
-        </div>
-        <ul>
-          <li>Our paper <strong>VLA-Pilot: Plug-and-Play Inference-Time VLA Policy Steering via Embodied Evolutionary Diffusion</strong> has been accepted to <em>IEEE Robotics and Automation Letters (RA-L)</em>. [<a href="https://rip4kobe.github.io/vla-pilot/">Project Website</a>]</li>
-          <li>Our paper <strong>Passive Model Predictive Cooperative Interaction Control for Bimanual Humanoid Manipulation</strong> has been accepted to <em>IEEE Transactions on Automation Science and Engineering (T-ASE)</em>. Congratulations to all co-authors! [<a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Vkan_K4AAAAJ&sortby=pubdate&citation_for_view=Vkan_K4AAAAJ:HoB7MX3m0LUC">Paper</a>]</li>
-          <li>Two papers have been accepted to <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2025</em>: <strong>ManiDP: Manipulability-Aware Diffusion Policy for Posture-Dependent Bimanual Manipulation</strong> [<a href="https://arxiv.org/pdf/2510.23016">Paper</a>] and <strong>OBiMan</strong> [<a href="https://ieeexplore.ieee.org/abstract/document/11247026/">Paper</a>].</li>
-          <li>Our paper <strong>HOTO: Human–Humanoid Robots' Cross-Embodiment Behavior-Skill Transfer Using Decomposed Adversarial Learning from Demonstration</strong> has been accepted to <em>IEEE Robotics &amp; Automation Magazine (RAM)</em>. Congratulations to all co-authors! [<a href="https://arxiv.org/pdf/2412.15166">Paper</a>]</li>
-          <li>Our paper <strong>SayFuncGrasp: Language-Guided Dexterous Functional Grasping by LLM Generated Grasp Functionality and Synergy for Humanoid Manipulation</strong> has been accepted to <em>IEEE Transactions on Automation Science and Engineering (T-ASE)</em>. [<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10849537">Paper</a>]</li>
+        <div class="section-title"><h2>Latest News</h2></div>
+        <ul class="news-list">
+          <li><time datetime="2026-10-15">Oct 2026</time><div>I gave an invited talk on <strong>WholeBodyWAM</strong> for 深蓝学院 and 机器之心, discussing world-action models for humanoid whole-body manipulation. <a href="https://mp.weixin.qq.com/s/CTGaeoUjVg5YURtXy7uJKA" target="_blank" rel="noopener noreferrer">Announcement</a> · <a href="https://www.xiaohongshu.com/user/profile/5b6c5de0f7e8b90498e0f7fb" target="_blank" rel="noopener noreferrer">Talk replay on Xiaohongshu</a></div></li>
+          <li><time datetime="2026-10-09">Oct 2026</time><div>Our new preprint <strong>ReAT</strong> introduces residual action tokenization for autoregressive robot policies. <a href="https://arxiv.org/abs/2610.13093" target="_blank" rel="noopener noreferrer">Paper</a></div></li>
+          <li><time datetime="2026-09-15">Sep 2026</time><div>Introducing <strong>WholeBodyWAM</strong>: extending pre-trained world-action priors to humanoid loco-manipulation through WBC-grounded coordination. <a href="https://arxiv.org/abs/2609.16644" target="_blank" rel="noopener noreferrer">Paper</a> · <a href="https://wholebodywam.github.io/" target="_blank" rel="noopener noreferrer">Project</a> · <a href="https://mp.weixin.qq.com/s/CTGaeoUjVg5YURtXy7uJKA" target="_blank" rel="noopener noreferrer">Media coverage</a></div></li>
+          <li><time datetime="2026-05-01">May 2026</time><div><strong>VLA-Pilot</strong> has been published in <em>IEEE Robotics and Automation Letters (RA-L)</em>. <a href="https://rip4kobe.github.io/vla-pilot/" target="_blank" rel="noopener noreferrer">Project</a> · <a href="https://mp.weixin.qq.com/s?__biz=MzE5MTUzODc5OQ==&amp;mid=2247492912&amp;idx=1&amp;sn=c5bf650e03ff4798eb69a52adf0209c1" target="_blank" rel="noopener noreferrer">Media coverage</a></div></li>
+          <li><time datetime="2026-03-27">Mar 2026</time><div>Our new preprint <strong>BiSAIL</strong> enables online interactive adaptation of bimanual skills through human language feedback. <a href="https://arxiv.org/abs/2603.26466" target="_blank" rel="noopener noreferrer">Paper</a> · <a href="https://rip4kobe.github.io/BiSAIL/" target="_blank" rel="noopener noreferrer">Project</a></div></li>
+          <li><time datetime="2026-01-30">Jan 2026</time><div><strong>Passive Model Predictive Cooperative Interaction Control for Bimanual Humanoid Manipulation</strong> has been published in <em>IEEE Transactions on Automation Science and Engineering (T-ASE)</em>. <a href="https://ieeexplore.ieee.org/document/11369905/" target="_blank" rel="noopener noreferrer">Paper</a></div></li>
+          <li><time datetime="2026-01-02">Jan 2026</time><div>The recording of my invited <strong>VLA-Pilot</strong> talk for 具身智能之心 is available. <a href="https://www.bilibili.com/video/BV1ZGiKBNESd/" target="_blank" rel="noopener noreferrer">Talk video on Bilibili</a></div></li>
+          <li><span class="news-date">2025</span><div><strong>ManiDP</strong> and <strong>OBiMan</strong> were accepted to <em>IROS 2025</em>. ManiDP also received the <strong>Best Paper Award at the IROS 2025 Bimanual Manipulation Workshop (BM-H2IC)</strong>. <a href="https://arxiv.org/abs/2510.23016" target="_blank" rel="noopener noreferrer">ManiDP</a> · <a href="https://ieeexplore.ieee.org/document/11247026/" target="_blank" rel="noopener noreferrer">OBiMan</a></div></li>
+          <li><span class="news-date">2025</span><div>Our work on cross-embodiment human–humanoid skill transfer appeared in <em>IEEE Robotics & Automation Magazine</em>, and <strong>SayFuncGrasp</strong> appeared in <em>IEEE Transactions on Automation Science and Engineering</em>. <a href="https://ieeexplore.ieee.org/document/10859269/" target="_blank" rel="noopener noreferrer">Skill transfer</a> · <a href="https://ieeexplore.ieee.org/document/10849537/" target="_blank" rel="noopener noreferrer">SayFuncGrasp</a></div></li>
         </ul>
       </div>
-    </section><!-- End News Section -->
+    </section>
 
-<!--    &lt;!&ndash; ======= Skills Section ======= &ndash;&gt;-->
-<!--    <section id="honors" class="skills section-bg">-->
-<!--      <div class="container">-->
-<!--        <div class="section-title">-->
-<!--          <h2>Honors and Awards</h2>-->
-<!--           <ul>-->
-<!--            <li><strong>Selected as one of the <a href="https://me.berkeley.edu/me-rising-stars/">Rising Stars</a> in Mechanical Engineering (in the US) in 2023</strong></li>-->
-<!--             <li><strong>Selected as one of 30 cohort of <a href="https://sites.google.com/view/rsspioneers2023/participants">RSS Pioneers</a> (cross the globe) in 2023</strong></li>-->
-<!--            <li>William S. Floyd, Jr. Graduate Student Fellowship at UC Berkeley, 2022</li>-->
-<!--             <li><strong>Best RoboCup Paper Finalist in IROS 2022</strong></li>-->
-<!--            <li>Graduate Division Block Grant Award in Mechanical Engineering at UC Berkeley, 2021</li>-->
-<!--             <li><strong>Best Service Robot Paper Finalist in ICRA 2021</strong></li>-->
-<!--             <li><strong>Best Entertainment and Amusement Paper Finalist in IROS 2020</strong></li>-->
-<!--             <li>IROS Student and Developing Countries (SDC) Travel Award, 2019</li>-->
-<!--             <li>Best Undergraduate Thesis Award at Zhejiang University, 2019</li>-->
-<!--          </ul>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </section>&lt;!&ndash; End Skills Section &ndash;&gt;-->
+    <section id="talks" class="talks">
+      <div class="container">
+        <div class="section-title"><h2>Invited Talks</h2></div>
+        <div class="talk-list">
+          <article class="talk-entry">
+            <p class="talk-date">15 October 2026</p>
+            <div><h3>WholeBodyWAM: World-Action Models for Humanoid Whole-Body Manipulation</h3>
+              <p>Invited by <strong>深蓝学院</strong> and <strong>机器之心</strong>.</p>
+              <p><a href="https://mp.weixin.qq.com/s/CTGaeoUjVg5YURtXy7uJKA" target="_blank" rel="noopener noreferrer">Announcement (WeChat)</a> · <a href="https://www.xiaohongshu.com/user/profile/5b6c5de0f7e8b90498e0f7fb" target="_blank" rel="noopener noreferrer">Talk replay on Xiaohongshu</a></p>
+            </div>
+          </article>
+          <article class="talk-entry">
+            <p class="talk-date">Recording<br>January 2026</p>
+            <div><h3>VLA-Pilot: Plug-and-Play VLA Policy Steering without Fine-Tuning</h3>
+              <p>Invited by <strong>具身智能之心</strong>.</p>
+              <p><a href="https://www.bilibili.com/video/BV1ZGiKBNESd/" target="_blank" rel="noopener noreferrer">Talk video (Bilibili)</a> · <a href="https://www.xiaohongshu.com/user/profile/5b6c5de0f7e8b90498e0f7fb" target="_blank" rel="noopener noreferrer">Talk posts on Xiaohongshu</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<!--    &lt;!&ndash; ======= Services Section ======= &ndash;&gt;-->
-<!--    <section id="talks" class="about">-->
-<!--      <div class="container">-->
-<!--        <div class="section-title">-->
-<!--          <h2>Invited Talks</h2>-->
-<!--          <table>-->
-<!--            <tr>-->
-<!--              <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--                <h4><strong>Can We Bridge Model-based Control and Model-free RL on Legged Robots?</strong><i class='bx bx-caret-right-square' ></i>-->
-<!--                </h4>-->
-<!--                <i class="bx bx-right-arrow"></i>09/2022, GRASP SFI, University of Pennsylvania-->
-<!--                <br>-->
-<!--                <i class="bx bx-right-arrow"></i>09/2022, Mila – Quebec AI Institute-->
-<!--                <br>-->
-<!--                <i class="bx bx-right-arrow"></i>11/2022, Beijing Academy of Artificial Intelligence (BAAI)-->
-<!--                <br>-->
-<!--              </td>-->
-<!--              <td style="padding:0px;width:25%;vertical-align:middle"><iframe src="https://www.youtube.com/embed/NnD8dzbtdAw"></iframe></td>-->
-<!--            </tr>-->
-<!--          </table>-->
-<!--          <table>-->
-<!--            <tr>-->
-<!--              <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--                <h4><strong>Towards Safe, Robust, and Dynamic Legged Robots and Beyond</strong></h4>-->
-<!--                <i class="bx bx-right-arrow"></i>07/2023, Southern University of Science and Technology (SUSTech)-->
-<!--                <br>-->
-<!--                <i class="bx bx-right-arrow"></i>08/2023, Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University-->
-<!--                <br>-->
-<!--                <i class="bx bx-right-arrow"></i>08/2023, Huzhou Research Institute, Zhejiang University-->
-<!--                <br>-->
-<!--                <i class="bx bx-right-arrow"></i>02/2024, Seminar in the group of Prof. Guanya Shi, Carnegie Mellon University-->
-<!--                <br>-->
-<!--                <i class="bx bx-right-arrow"></i>03/2024, Seminar in the group of Prof. Ding Zhao, Carnegie Mellon University-->
-<!--                <br>-->
-<!--                <i class="bx bx-right-arrow"></i>04/2024, Berkeley Control Seminar, UC Berkeley-->
-<!--                <br>-->
-<!--                <i class="bx bx-right-arrow"></i>09/2024, AI Institute, Shanghai Jiao Tong University-->
-<!--                <br>-->
-<!--                <i class="bx bx-right-arrow"></i>10/2024, Seminar in the group of Prof. Sophia Shao, UC Berkeley-->
-<!--                <br>-->
-<!--                <i class="bx bx-right-arrow"></i>12/2024, Humanoid Intelligence Seminar, UC Berkeley-->
-<!--                <br>                -->
-<!--              </td>-->
-<!--            </tr>-->
-<!--          </table>-->
-<!--          <br>-->
-<!--          <table>-->
-<!--            <tr>-->
-<!--              <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--                <h4><strong>Towards General-Purpose Robots from the Perspectives of Legged Robots</strong></h4>-->
-<!--                <i class="bx bx-right-arrow"></i>06/2024, Guest Lecture in Deep Learning Course at IIIS, Tsinghua University-->
-<!--                <br>-->
-<!--              </td>-->
-<!--            </tr>-->
-<!--          </table>-->
-<!--        </div>-->
-
-<!--      </div>-->
-<!--    </section>-->
-
-
-    <!-- ======= Portfolio Section ======= -->
     <section id="publications" class="portfolio section-bg">
       <div class="container">
-
         <div class="section-title">
           <h2>Selected Publications</h2>
-          <p><sup>*</sup>Equal Contribution, &dagger;Project Lead, &#10186;Equal Advising <i class='bx bxs-cool bx-tada bx-rotate-270' ></i>Highlights</p>
+          <p>Research in dexterous grasping, bimanual manipulation and whole-body manipulation.</p>
         </div>
+        <p class="publication-note"><sup>*</sup> Equal contribution. First-author and co-first-author papers appear first within each topic, followed by year (newest first). <a href="https://scholar.google.com/citations?user=Vkan_K4AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Full publication list</a></p>
+        <nav class="research-topics" aria-label="Publication topics"><a href="#dexterous-grasping">Dexterous Grasping</a><a href="#bimanual-manipulation">Bimanual Manipulation</a><a href="#whole-body-manipulation">Whole-Body Manipulation</a></nav>
+        <div class="publication-group" id="dexterous-grasping">
+          <h3>Dexterous Grasping</h3>
+          <p class="topic-summary">Language-guided functional grasps, hand synergies and reachability-aware arm configurations.</p>
+          <article class="publication-entry" id="paper-sayfuncgrasp" data-first-author="true" data-date="2025-01">
+            <a class="publication-visual" href="https://ieeexplore.ieee.org/document/10849537/" target="_blank" rel="noopener noreferrer" aria-label="Read Language-Guided Dexterous Functional Grasping by LLM Generated Grasp Functionality and Synergy for Humanoid Manipulation"><img src="assets/img/SayFuncGrasp_intro.png" alt="SayFuncGrasp language-guided dexterous functional grasping overview" loading="lazy" decoding="async"></a>
+            <div class="publication-content">
+              <h4>Language-Guided Dexterous Functional Grasping by LLM Generated Grasp Functionality and Synergy for Humanoid Manipulation</h4>
+              <p class="publication-authors"><strong>Zhuo Li</strong>, Junjia Liu, Zhihao Li, Zhipeng Dong, Tao Teng, Yongsheng Ou, Darwin Caldwell, Fei Chen</p>
+              <p class="publication-venue"><em>IEEE Transactions on Automation Science and Engineering (T-ASE)</em>, 2025</p>
 
-        <h4><strong>Peer-Reviewed Journals</strong></h4>
-        <table>
-          <tr id="cassierun">
-            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/SayFuncGrasp_intro.png" alt="" width="260"/></td>
-            <td style="padding:0px;width:75%;vertical-align:middle">
-              <strong>Language-Guided Dexterous Functional Grasping by LLM Generated Grasp Functionality and Synergy for Humanoid Manipulation</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>
-              <br>
-              <strong>Zhuo Li</strong>, Junjia Liu, Zhihao Li , Zhipeng Dong , Tao Teng , Yongsheng Ou , Darwin Caldwell , and Fei Chen
-              <br>
-              <i>IEEE Transactions on Automation Science and Engineering (TASE)</i>, 2025
-              <br>
-              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10849537">Paper</a>
-              /
-              <a href="https://www.youtube.com/watch?v=KGx28DM1uCs">Video</a>
-<!--              /-->
-<!--              Media: <a href="https://www.technologyreview.com/2024/03/18/1089899/how-ai-taught-cassie-the-two-legged-robot-to-run-and-jump/">MIT Technology Review</a>-->
-              <br>
-              <p>A LLM-based DFG framework that can synthesize versatile dexterous functional grasps from language instructions and achieve open-set generalization on novel functional concepts.</p>
-            </td>
-          </tr>
+              <p class="publication-links"><a href="https://ieeexplore.ieee.org/document/10849537/" target="_blank" rel="noopener noreferrer">Paper</a><span aria-hidden="true"> / </span><a href="https://www.youtube.com/watch?v=KGx28DM1uCs" target="_blank" rel="noopener noreferrer">Video</a></p>
+              <p class="publication-summary">Language-guided dexterous functional grasp synthesis with LLM-generated grasp functionality and hand synergies, generalizing to novel functional concepts.</p>
+            </div>
+          </article>
+          <article class="publication-entry" id="paper-reachability-grasping" data-first-author="true" data-date="2023">
+            <a class="publication-visual" href="https://doi.org/10.1007/s10846-023-01829-y" target="_blank" rel="noopener noreferrer" aria-label="Read Planning Multi-fingered Grasps with Reachability Awareness in Unrestricted Workspace"><img src="assets/img/JINT.png" alt="Reachability-aware multi-fingered grasp planning" loading="lazy" decoding="async"></a>
+            <div class="publication-content">
+              <h4>Planning Multi-fingered Grasps with Reachability Awareness in Unrestricted Workspace</h4>
+              <p class="publication-authors"><strong>Zhuo Li</strong>, Shiqi Li, Ke Han, Xiao Li, Youjun Xiong, Zheng Xie</p>
+              <p class="publication-venue"><em>Journal of Intelligent &amp; Robotic Systems</em>, 2023</p>
 
-          <tr id="cassienav">
-            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/HOTO.png" alt="" width="260"/></td>
-            <td style="padding:0px;width:75%;vertical-align:middle">
-              <strong>Human–Humanoid Robots’ Cross-Embodiment Behavior-Skill Transfer Using Decomposed Adversarial Learning From Demonstration:</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>
-              <br>
-                Junjia Liu, <strong>Zhuo Li</strong> , Minghao Yu , Zhipeng Dong , Sylvain Calinon , Darwin Caldwell , and Fei Chen
-              <br>
-              <i>IEEE Robotics & Automation Magazine (RAM)</i>, 2025
-              <br>
-              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10859269">Paper</a>
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=Da0tebC3WuE">Video</a>-->
-<!--              /-->
-<!--              Media: <a href="https://spectrum.ieee.org/video-friday-subt-final">Video Friday</a>-->
-              <br>
-              <p>A transferable framework that reduces the data bottleneck by using a unified digital human model as a common prototype and bypassing the need for retraining on every new humanoid platform</p>
-            </td>
-          </tr>
+              <p class="publication-links"><a href="https://doi.org/10.1007/s10846-023-01829-y" target="_blank" rel="noopener noreferrer">Paper</a><span aria-hidden="true"> / </span><a href="https://www.youtube.com/watch?v=V6NAbrddj7E" target="_blank" rel="noopener noreferrer">Video</a></p>
+              <p class="publication-summary">Reachability-aware planning of feasible, high-dimensional multi-fingered grasps for novel objects across unrestricted workspaces.</p>
+            </div>
+          </article>
+          <article class="publication-entry" id="paper-humanlike-ik" data-first-author="false" data-date="2022-10">
+            <a class="publication-visual" href="https://doi.org/10.1016/j.aei.2022.101812" target="_blank" rel="noopener noreferrer" aria-label="Read Human-like Redundancy Resolution: An Integrated Inverse Kinematics Scheme for Anthropomorphic Manipulators with Radial Elbow Offset"><img src="assets/img/AMREO.png" alt="Human-like arm configuration and inverse kinematics for an anthropomorphic manipulator" loading="lazy" decoding="async"></a>
+            <div class="publication-content">
+              <h4>Human-like Redundancy Resolution: An Integrated Inverse Kinematics Scheme for Anthropomorphic Manipulators with Radial Elbow Offset</h4>
+              <p class="publication-authors">Shiqi Li, Ke Han, Ping He, <strong>Zhuo Li</strong>, Yizhang Liu, Youjun Xiong</p>
+              <p class="publication-venue"><em>Advanced Engineering Informatics</em>, 2022</p>
 
-          <tr id="trvaware_nav">
-            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/JINT.png" alt="" width="260"/></td>
-            <td style="padding:0px;width:75%;vertical-align:middle">
-              <strong>Planning Multi-fingered Grasps with Reachability Awareness in Unrestricted Workspace </strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>
-              <br>
-              <strong>Zhuo Li</strong>, Shiqi Li, Ke Han, Xiao Li, Youjun Xiong & Zheng Xie
-              <br>
-              <i>Journal of Intelligent & Robotic Systems </i>, 2023
-              <br>
-              <a href="https://link.springer.com/article/10.1007/s10846-023-01829-y">Paper</a>
-              /
-              <a href="https://www.youtube.com/watch?v=V6NAbrddj7E">Video</a>
-              <br>
-              <p>A reachability-aware multi-fingered grasp planning framework for humanoid manipulation that can synthesize feasible high-DOF grasps for novel objects in unrestricted workspace.</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/AMREO.png" alt="" width="260"/></td>
-            <td style="padding:0px;width:75%;vertical-align:middle">
-              <strong>Human-like redundancy resolution: An integrated inverse kinematics scheme for anthropomorphic manipulators with radial elbow offset</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>
-              <br>
-              Shiqi Li, Ke Han, <strong>Zhuo Li</strong>, Yizhang Liu, Youjun Xiong <br>
-              <i>Advanced Engineering Informatics</i>, 2022
-              <br>
-              <a href="https://pdf.sciencedirectassets.com/272292/1-s2.0-S1474034622X00049/1-s2.0-S1474034622002701/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIDjQ184rKyhb0%2BIWrkPbBiyTSFvygbrFFIunYd7ciuf%2FAiA5ut46wpSv4eyS%2BBsyj0m8cjX2R30KCs%2F8kclUo18HISq8BQiw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAUaDDA1OTAwMzU0Njg2NSIM2ZI8be9Gc43J1YzBKpAFIqx8FKaXgcF%2FhbjOZsHgfUSE5B81G4DhNsta%2FtAr978GPD%2ByVhTMZwftTLwb0pE4p7NhIo6k0vfL7vInGYlmcZRoRPpKwPEVXhAT0QdJFu8CCJvygJ0gvwVM5SpsRSSV8RfseDKT%2Box6u%2FUgvgbMIB9xujXxooWVln7WJ59DwrsTB7oVk8%2FakQ9Hup9a6Y4YL6%2B%2FdQDLfTRCrKDnbfJw9LInnEquSnFTz3nLP2uBJVN5YZ4yME1G7hIOvWc1ZkMhcPWHLGY0OKJNt5PtK0oVVduCmHM8hX7EWKrksF0f2TjfhHvC8hLHBRpwt5B105XF4rHFXQPtFlWIyrthS9%2FF%2Baclk1LVt%2B11QgZCFLgRHGq4sqDrgH%2B7K0zwAn8JzLOT63pYH3%2BGPiqHcqJJxQqEVYGL2jdN8Uabz%2FjumufGBSyU0XBextldhR22EqJO434a1Bwx63gdDElEfjxrFD%2BIJTkHP0FAsKu02HyQ15G6Va945jMVPe1KRhZNZ28oaNAZAq3GY3W7fKpReqNI5%2FAL6zSBocglVJx%2F7pWrHjX9s2pTjvuh31TFxnl3TBDNw4OQDSwOSWbH9TbS3m%2FJ644FgkgN2yLbvVJmInqRYHwa%2BH3t3GsUcO9z0t8ppXTxKLffFrYsZU0MBJ2JQ0Z8ekpa%2F%2BmaDIfk44t236xopILp%2BRAhz6fa5od9Pv3r7EezP%2BSvC3256wDCUfX01uKTsrca5ZTyurzmax9oMbfFCewv9uEElMEzNmAP%2FAAPX%2FH5W7RSOJpsGobuzdo0gDHieRcWu2RpuEbALmUSdkN3WJtNMAsYRX1CWSMXNqbyKKqrcTi%2F3FEI6QrNk05MYJeqezmoso0CIyN2ygjkBJN736xZKowwl4WlyQY6sgFa9fJR1qm%2FjL783eIMOXkMnbvHaPcSdnOmhSF5jAIdEDcKoAbGVkPo%2B3E4T%2Bu7p5lEPe6bZLGZIdJL2DgMIWP1uuEnKcPyL%2FqGwTS5lel%2BKx7BeW2GLgypIxerD0EoAyyL5tevmbg9NQP4PwLL7WxLJFOPj17Oh755FoSwloiaBVrAs8hiiu0TCIGCfBNF9oOOqQS6uFitTbg7GB5XMaS4UkV14Zr3u3mC4nCJptQW0dhw&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251128T070211Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY2M54DYVS%2F20251128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8e9a34af70baabb77b0f0c86441ffc2d9d3a145abda520b60ac036320be8eafc&hash=69ce6c879bd3fc6af0c85039fe14032defef50e227bd4136a1bae51e29627819&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1474034622002701&tid=spdf-61bd8cb3-446b-4d1e-a746-898e50fc941d&sid=3db8e0a369935643c80a42d593d7c51f85f3gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=120857055b5304005a52&rr=9a57ff906af88b94&cc=hk&kca=eyJrZXkiOiJsTlNONzFVcHA3ZWh0TXhBTmliRVB2ckp6V3p6cmpKWGRHVFkwdzF6eVdibCtOaTJuQ0NTcnU5Q0YzK3JCdTQwWURjbmt6dzRUaHlzRXlsZXFQR0hITXptek82eFk4SGs0QkdOdGFQTjF2aHJjZ2dMVDRBN1JEZEp6YXhUbXFxS3RpSUJ2M3BsYW5xTzFINytDSitCalBaMytEc3U4ZVEzU2pZdnVaY0VwSDkxVWZ3bFFRPT0iLCJpdiI6ImI4ODAwMDZiYjIxNzUxNWM5N2Q5YzI5MGRhZjdlNmEwIn0=_1764313376606">Paper</a>
-              /
-              <a href="https://www.youtube.com/watch?v=fFjVKiR39pc">Video</a>
-<!--              /-->
-<!--              Media: <a href="https://spectrum.ieee.org/video-friday-robots-musical-instruments">Video Friday</a>-->
-<!--              <br>-->
-              <p> An integrated scheme for solving the path-wise IK problem of a 7-DoF AMREO in the position domain.</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/VLA-Pilot.png" alt="" width="260"/></td>
-            <td style="padding:0px;width:75%;vertical-align:middle">
-              <strong>Towards Deploying VLA without Fine-Tuning: Plug-and-Play Inference-Time VLA Policy Steering via Embodied Evolutionary Diffusion</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>
-              <br>
-              <strong>Zhuo Li</strong>, Junjia Liu, Zhipeng Dong, Tao Teng, Quentin Rouxel, Darwin Caldwell, Fei Chen
-              <br>
-              <i>IEEE Robotics and Automation Letters (RA-L)</i>, 2026
-              <br>
-              <a href="https://arxiv.org/pdf/2511.14178">Paper</a>
-              /
-              <a href="https://www.youtube.com/watch?v=iDiDtVhp4tI">Video</a>
-              /
-              <a href="https://rip4kobe.github.io/vla-pilot/">Project Website</a>
-              <br>
-              <p>A novel plug-and-play inference-time policy steering method that enables zero-shot deployment of pre-trained VLA policies without any additional fine-tuning or data collection.</p>
-            </td>
-          </tr>
-        </table>
-
-
-        <h4><strong>Journals in Review</strong></h4>
-        <table>
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/interactive_nav.gif" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Interactive Navigation with Adaptive Non-prehensile Mobile Manipulation</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>-->
-<!--              <br>-->
-<!--              C. Dai<sup>*</sup>, X. Liu<sup>*</sup>, K. Sreenath, <strong>Z. Li&dagger;</strong>, R. Hollis-->
-<!--              <br>-->
-<!--              <i><u>In Submission</u> to IEEE Robotics and Automation Letters (RA-L)</i>, 2025-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2410.13418">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://cmushmoobot.github.io/AdaptivePushing/">Website</a>-->
-<!--              <br>-->
-<!--              <p>An adpative control framework for interactive navigation tasks.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-        </table>
-
-        <h4><strong>Peer-Reviewed Conference Papers</strong></h4>
-        <table>
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/ManiDP.png" alt="" width="260"/></td>
-            <td style="padding:0px;width:75%;vertical-align:middle">
-              <strong>ManiDP: Manipulability-Aware Diffusion Policy for Posture-Dependent Bimanual Manipulation</strong>
-              <br>
-              <strong>Zhuo Li</strong>, Junjia Liu, Dianxi Li, Tao Teng, Miao Li, Sylvain Calinon, Darwin Caldwell, Fei Chen
-              <br>
-              <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, 2025
-              <br>
-              <font color="c0392b"><strong><i>Best Paper Award, IROS 2025 Bimanual Manipulation Workshop (BM-H2IC)</i></strong></font>
-              <br>
-              <a href="https://arxiv.org/abs/2510.23016">Paper</a>
-              /
-              <a href="https://www.youtube.com/watch?v=ZlE_d1kU_Pk">Video</a>
-              <br>
-              <p>We propose Manipulability-Aware Diffusion Policy (ManiDP), a novel imitation learning method that not only generates plausible bimanual trajectories, but also optimizes dual-arm configurations to better satisfy posture-dependent task requirements.</p>
-            </td>
-          </tr>      
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/ROBIO.png" alt="" width="260"/></td>
-            <td style="padding:0px;width:75%;vertical-align:middle">
-              <strong>Instruction-following Long-horizon Manipulation by LLM-Empowered Symbolic Planner</strong>
-              <br>
-              Zhihao Li, Junjia Liu, <strong>Zhuo Li</strong>, Minghao Yu, Tao Teng, Shunbo Zhou, Miao Li, Tin Lun Lam, and Fei Chen
-              <br>
-              <i> IEEE International Conference on Robotics and Biomimetics (ROBIO)</i>, 2024
-              <br>
-              <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10907585">Paper</a>
-<!--              /-->
-<!--              <a href="https://lite.berkeley-humanoid.org/">Website</a>-->
-              <br>
-              <p>A generalizable framework that combines a Large Language Model, a Visual-language Model, and symbolic planning to address long-horizon bimanual mobile manipulation tasks.</p>
-            </td>
-          </tr>             
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/langwbc.png" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>LangWBC: Language-directed Humanoid Whole-Body Control via End-to-end Learning</strong>-->
-<!--              <br>-->
-<!--              Y. Shao, X. Huang, B. Zhang, Q. Liao, Y. Gao, Y. Chi, <strong>Z. Li</strong>, S. Shao, K. Sreenath-->
-<!--              <br>-->
-<!--              <i>Robotics: Science and System</i>, 2025-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2504.21738">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=9AN0GulqWwc">Video</a>-->
-<!--              <br>-->
-<!--              <p>Text-To-Humanoid-Control</p>-->
-<!--            </td>-->
-<!--          </tr> -->
-
-<!--          <tr id="llm_tamp_quad">-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/llm_tamp_quad.PNG" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Long-horizon Locomotion and Manipulation on a Quadrupedal Robot with Large Language Models</strong>-->
-<!--              <br>-->
-<!--              Y. Ouyang, J. Li, Y. Li, <strong>Z. Li&dagger;</strong>, C. Yu, K. Sreenath, Y. Wu-->
-<!--              <br>-->
-<!--              <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2025-->
-<!--              <br>-->
-<!--              <a href="arXiv preprint arXiv:2404.05291">Paper</a>-->
-<!--              <br>-->
-<!--              <p>LLM agents for long-horizon task and motion planning for loco-manipulation tasks using quadrupeds</p>-->
-<!--            </td>-->
-<!--          </tr>          -->
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/lcp_bh.gif" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Learning Smooth Humanoid Locomotion through Lipschitz-Constrained Policies</strong>-->
-<!--              <br>-->
-<!--              Z. Chen<sup>*</sup>, X. He<sup>*</sup>, Y. J. Wang<sup>*</sup>, Q. Liao, Y. Ze, <strong>Z. Li</strong>, S. Sastry, J. Wu, K. Sreenath, S. Gupta, X. B. Peng-->
-<!--              <br>-->
-<!--              <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2024-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2410.11825">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://lipschitz-constrained-policy.github.io/">Website</a>-->
-<!--              <br>-->
-<!--              <p>Using Lipschitz constraint to have smooth RL policy.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/berkeley_humanoid.gif" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Berkeley Humanoid: A Research Platform for Learning-based Control</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>-->
-<!--              <br>-->
-<!--              Q. Liao, B. Zhang, X. Huang, X. Huang, <strong>Z. Li</strong>, K. Sreenath-->
-<!--              <br>-->
-<!--              <i>International Conference on Robotics and Automation (ICRA)</i>, 2025-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2407.21781">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://berkeley-humanoid.com/">Website</a>-->
-<!--              /-->
-<!--              Media: <a href="https://spectrum.ieee.org/video-friday-berkeley-little-humanoid">IEEE Specturm</a>-->
-<!--              <br>-->
-<!--              <p>An in-house-built and cool humanoid (bipedal) robot.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/llm_curriculum.PNG" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills using Large Language Models</strong>-->
-<!--              <br>-->
-<!--              K. Ryu, Q. Liao, <strong>Z. Li</strong>, K. Sreenath, N. Mehr-->
-<!--              <br>-->
-<!--              <i>International Conference on Robotics and Automation (ICRA)</i>, 2025-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2409.18382">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://github.com/labicon/CurricuLLM">Code</a>-->
-<!--              <br>-->
-<!--              <p>LLM agents for curricula design for RL.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr id="diffuseloco">-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/duffuseloco.gif" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>DiffuseLoco: Real-Time Legged Locomotion Control with Diffusion from Offline Datasets</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>-->
-<!--              <br>-->
-<!--              X. Huang<sup>*</sup>, Y. Chi<sup>*</sup>, R. Wang<sup>*</sup>, <strong>Z. Li&dagger;</strong>, X. B. Peng, S. Shao, B. Nikolic, K. Sreenath-->
-<!--              <br>-->
-<!--              <i>Conference on Robot Learning (CoRL)</i>, 2024-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2404.19264">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://diffuselo.co/">Website</a>-->
-<!--              <br>-->
-<!--              <p>Diffusing multimodal legged locomotion skills purely from offline datasets with a 6.8M transformer DDPM (YES it runs onboard at 50Hz!).</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr id="l4d_quad">-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/l4d_quad.gif" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Learning Visual Quadrupedal Loco-Manipulation from Demonstrations</strong>-->
-<!--              <br>-->
-<!--              Z. He, K. Lei, Y. Ze, K. Sreenath, <strong>Z. Li</strong>, H. Xu-->
-<!--              <br>-->
-<!--              <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2024-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2403.20328">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://zhengmaohe.github.io/leg-manip/">Website</a>-->
-<!--              <br>-->
-<!--              <p>Imitation learning for end-effector planning + reinforcement learning whole-body contol for loco-manipulation tasks.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr id="rlsymm">-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/symm_rl.png" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Leveraging Symmetry in RL-based Legged Locomotion Control</strong>-->
-<!--              <br>-->
-<!--              Z. Su<sup>*</sup>, X. Huang<sup>*</sup>, D. Ordoñez-Apraez, Y. Li, <strong>Z. Li</strong>, Q. Liao, G. Turrisi, M. Pontil, C. Semini, Y. Wu, K. Sreenath-->
-<!--              <br>-->
-<!--              <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2024-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2403.17320">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://suz-tsinghua.github.io/SymmLoco-page/">Website</a>-->
-<!--              <br>-->
-<!--              <p>The efficacy of two approaches to incorporate symmetry in RL for locomotion control.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-<!--          -->
-<!--          <tr id="himas_res">-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/himas-res.png" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>HiLMa-Res: A General Hierarchical Framework via Residual RL for Combining Quadrupedal Locomotion and Manipulation</strong>-->
-<!--              <br>-->
-<!--              X. Huang, Q. Liao, Y. Ni, <strong>Z. Li&dagger;</strong>, L. Smith, S. Levine, X. B. Peng, K. Sreenath-->
-<!--              <br>-->
-<!--              <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2024-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2407.06584">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=8dOs9_RDn4E">Video</a>-->
-<!--              <br>-->
-<!--              <p>A hierarchical RL framework to tackle <i>various</i> loco-manipulation tasks while performing continuous quadrupedal locomotion skills.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr id="cassiejump">-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/trv_aware.gif" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Robust and Versatile Bipedal Jumping Control through Reinforcement Learning</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>-->
-<!--              <br>-->
-<!--              <strong>Z. Li</strong>, X. B. Peng, P. Abbeel, S. Levine, G. Berseth, K. Sreenath-->
-<!--              <br>-->
-<!--              <i>Robotics: Science and Systems (RSS)</i>, 2023-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2302.09450">Paper</a>-->
-<!--              /-->
-<!--              <a href=" https://youtu.be/aAPSZ2QFB-E">Video</a>-->
-<!--              /-->
-<!--              Media: <a href="https://spectrum.ieee.org/amphibian-robot">Video Friday</a>-->
-<!--              <br>-->
-<!--              <p>A bipedal robot learns to perform various aggressive jumping maneuvers.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/i2LQR_intro.png" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>i2LQR: Iterative LQR for Iterative Tasks in Dynamic Environments</strong>-->
-<!--              <br>-->
-<!--              Y. Zeng<sup>*</sup>, S. He<sup>*</sup>, H. H. Nguyen, <strong>Z. Li</strong>, K. Sreenath, J. Zeng-->
-<!--              <br>-->
-<!--              <i>Conference on Decision and Control (CDC)</i>, 2023-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2302.14246">Paper</a>-->
-<!--              <br>-->
-<!--              <p>Iterative LQR for iterative tasks, analogous to learning MPC :)</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/walk-in-narrow-space.png" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Walking in Narrow Spaces: Safety-critical Locomotion Control for Quadrupedal Robots with Duality-based Optimization</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>-->
-<!--              <br>-->
-<!--              Q. Liao, <strong>Z. Li&dagger;</strong>, A. Thirugnanam, J. Zeng, and K. Sreenath-->
-<!--              <br>-->
-<!--              <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2023-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2212.14199">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=p1gSQjwXm1Q">Video</a>-->
-<!--              /-->
-<!--              <a href="https://github.com/HybridRobotics/quadruped_nmpc_dcbf_duality">Code</a>-->
-<!--              <br>-->
-<!--              <p>A safety-critical legged locomotion controller to travel through <i>narrow spaces</i>.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr id="goalkeeping">-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/goalkeeper.gif" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Creating a Dynamic Quadrupedal Robotic Goalkeeper with Reinforcement Learning</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>-->
-<!--              <br>-->
-<!--              X. Huang<sup>*</sup>, <strong>Z. Li<sup>*</sup></strong>, Y. Xiang, Y. Ni, Y. Chi, Y. Li, L. Yang, X. B. Peng, K. Sreenath-->
-<!--              <br>-->
-<!--              <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2023-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2210.04435">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=iX6OgG67-ZQ">Video</a>-->
-<!--              /-->
-<!--              Media: <a href="https://spectrum.ieee.org/football-robot-mini-cheetah">IEEE Specturm</a> &bull;-->
-<!--                     <a href="https://techxplore.com/news/2022-10-learning-based-four-legged-robotic-goalkeeper.html">Tech Xplore</a> &bull;-->
-<!--                     <a href="https://techcrunch.com/2022/10/17/watch-two-mini-cheetah-robots-square-off-on-the-soccer-field/">TechCrunch</a> &bull;-->
-<!--                     <a href="https://www.dailymail.co.uk/sciencetech/article-11335691/Four-legged-robot-goalkeeper-blocks-87-5-shots.html">DailyMail</a> &bull;-->
-<!--                     <a href="https://www.dailymail.co.uk/sciencetech/article-11339953/Robot-athletes-including-four-legged-robot-goalkeeper-Google-AI-ping-pong-champion.html"?>DailyMail</a>-->
-<!--              <br>-->
-<!--              <p>A agile quadrupedal goalkeeper that can intercept fast-moving ball.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/genloco.gif" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>GenLoco: Generalized Locomotion Controllers for Quadrupedal Robots</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>-->
-<!--              <br>-->
-<!--              G. Feng<sup>*</sup>, H. Zhang<sup>*</sup>, <strong>Z. Li&dagger;</strong>, X. B. Peng&dagger;, B. Basireddy, L. Yue, Z. Song, L. Yang, Y. Liu, K. Sreenath, S. Levine-->
-<!--              <br>-->
-<!--              <i>Conference on Robot Learning (CoRL)</i>, 2022-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/pdf/2209.05309.pdf">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=5QUs32MjNu4">Video</a>-->
-<!--              /-->
-<!--              <a href="https://github.com/HybridRobotics/GenLoco">Code</a>-->
-<!--              <br>-->
-<!--              <p>An opensourced generalized locomotion controller for a <i>vast number</i> of quadrupedal robots.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/a1-soccer.gif" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Hierarchical Reinforcement Learning for Precise Soccer Shooting Skills using Quadrupedal Robots</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>-->
-<!--              <br>-->
-<!--              Y. Ji<sup>*</sup>, <strong>Z. Li<sup>*</sup></strong>, Y. Sun, X. B. Peng, S. Levine, G. Berseth, K. Sreenath-->
-<!--              <br>-->
-<!--              <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2022-->
-<!--              <br>-->
-<!--              <font color="c0392b "><strong><i>Best RoboCup Paper Finalist, IROS 2022</i></strong></font>-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2208.01160">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=bteipHcJ8BM">Video</a>-->
-<!--              /-->
-<!--              Media: <a href="https://spectrum.ieee.org/video-friday-build-a-chair#toggle-gdpr">Video Friday</a> &bull;-->
-<!--                     <a href="https://techxplore.com/news/2022-08-framework-soccer-skills-quadruped-robots.html">Tech Xplore</a>-->
-<!--              <br>-->
-<!--              <p>A quadrupedal robot that can precisely shoot a <i>soft</i> ball to the given target.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/arma.gif" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Adapting Rapid Motor Adaptation for Bipedal Robots</strong>-->
-<!--              <br>-->
-<!--              A. Kumar<sup>*</sup>, <strong>Z. Li<sup>*</sup></strong>, J. Zeng, D. Pathak, K. Sreenath, J. Malik-->
-<!--              <br>-->
-<!--              <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2022-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2205.15299">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=HSdFHX0qQqg">Video</a>-->
-<!--              <br>-->
-<!--              <p>An adaptive bipedal locomotion controller by RL.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/teaching-emotive.PNG" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Teaching Robots to Span the Space of Functional Expressive Motion</strong>-->
-<!--              <br>-->
-<!--              A. Sripathy, A. Bobu, <strong>Z. Li</strong>, K. Sreenath, D. S. Brown, A. D. Dragan-->
-<!--              <br>-->
-<!--              <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2022-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2203.02091">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://arjunsripathy.github.io/robot_emotive_space/">Video</a>-->
-<!--              <br>-->
-<!--              <p>Humans can teach robot how to behave with emotions!</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/bridging.png" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Bridging Model-based Safety and Model-free Reinforcement Learning through System Identification of Low Dimensional Linear Models</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>-->
-<!--              <br>-->
-<!--              <strong>Z. Li</strong>, J. Zeng, A. Thirugnanam, K. Sreenath-->
-<!--              <br>-->
-<!--              <i>Robotics: Science and Systems (RSS)</i>, 2022-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2205.05787">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=C-eu-DM2Vd0">Video</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=JSATXu2CxgU">Seminar</a>-->
-<!--              <br>-->
-<!--              <p>A bipedal robot controlled by its RL policy is a <strong>linear system</strong>!</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/bo-cassie.gif" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Bayesian Optimization Meets Hybrid Zero Dynamics: Safe Parameter Learning for Bipedal Locomotion Control</strong>-->
-<!--              <br>-->
-<!--              L. Yang<sup>*</sup>, <strong>Z. Li<sup>*</sup></strong>, J. Zeng, K. Sreenath-->
-<!--              <br>-->
-<!--              <i>International Conference on Robotics and Automation (ICRA)</i>, 2022-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2203.02570">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=WxkdJdMRdfM">Video</a>-->
-<!--              <br>-->
-<!--              <p>Auto-tuning a HZD-based bipedal locomotion controller by Bayesian Optimization.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/cheetah-hoop.gif" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Autonomous navigation for quadrupedal robots with optimized jumping through constrained obstacles</strong>-->
-<!--              <br>-->
-<!--              S. Gilroy<sup>*</sup>, D. Lau<sup>*</sup>, L. Yang<sup>*</sup>, E. Izaguirre, K. Biermayer, A. Xiao, M. Sun, A. Agrawal, J. Zeng, <strong>Z. Li&dagger;</strong>, and K. Sreenath-->
-<!--              <br>-->
-<!--              <i>Conference on Automation Science and Engineering (CASE)</i>, 2021-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/pdf/2107.00773.pdf">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=5pzJ8U7YyGc">Video</a>-->
-<!--              /-->
-<!--              Media: <a href="https://spectrum.ieee.org/video-friday-spot-meets-bts">Video Friday</a>-->
-<!--              <br>-->
-<!--              <p>Quadrupedal robots can traverse more complex environments by leveraging a big jump.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/mpc-cbf.PNG" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Enhancing Feasibility and Safety of Nonlinear Model Predictive Control with Discrete-Time Control Barrier Functions</strong>-->
-<!--              <br>-->
-<!--              J. Zeng<sup>*</sup>, <strong>Z. Li<sup>*</sup></strong>, and K. Sreenath-->
-<!--              <br>-->
-<!--              <i>Conference on Decision and Control (CDC)</i>, 2021-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/pdf/2105.10596.pdf">Paper</a>-->
-<!--              <br>-->
-<!--              <p>Incorporating Control Barrier Functions (CBFs) with Model Predictive Control (MPC).</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr id="cassiewalk">-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/cassie-walk.gif" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Reinforcement Learning for Robust Parameterized Locomotion Control of Bipedal Robots</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>-->
-<!--              <br>-->
-<!--              <strong>Z. Li</strong>, X. Cheng, X. Peng, P. Abbeel, S. Levine, G. Berseth and K. Sreenath-->
-<!--              <br>-->
-<!--              <i>International Conference on Robotics and Automation (ICRA)</i>, 2021-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2103.14295">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=goxCjGPQH7U">Video</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=6tn-owW6iME">Seminar</a>-->
-<!--              /-->
-<!--              Media: <a href="https://www.technologyreview.com/2021/04/08/1022176/boston-dynamics-cassie-robot-walk-reinforcement-learning-ai/">MIT Technology Review</a> &bull;-->
-<!--                     <a href="https://techxplore.com/news/2021-04-robot.html">Tech Xplore</a> &bull;-->
-<!--                     <a href="https://www.inverse.com/innovation/are-childlike-ai-the-future-of-robotics">Inverse</a> &bull;-->
-<!--                      <a href="https://blogs.mathworks.com/headlines/2021/04/14/this-two-legged-robot-taught-itself-how-to-walk/">MathWorks</a> &bull;-->
-<!--                      <a href="https://www.heise.de/hintergrund/Roboter-bringt-sich-selbst-das-Laufen-bei-6023121.html">heise (German)</a> &bull;-->
-<!--                      <a href="https://mp.weixin.qq.com/s/VyUBK1arS7o3ougm_SmZLg">DeepTech (Chinese)</a>-->
-<!--              <br>-->
-<!--              <p>A bipedal robot learns to walk, turn, and squat, with significant <i>robustness</i>.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr id="guidedog">-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/guidedog.gif" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Robotic Guide Dog: Leading a Human with Leash-Guided Hybrid Physical Interaction</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>-->
-<!--              <br>-->
-<!--              A. Xiao<sup>*</sup>, W. Tong<sup>*</sup>, L. Yang<sup>*</sup>, J. Zeng, <strong>Z. Li&dagger;</strong>, and K. Sreenath-->
-<!--              <br>-->
-<!--              <i>International Conference on Robotics and Automation (ICRA)</i>, 2021-->
-<!--              <br>-->
-<!--              <font color="c0392b "><strong><i>Best Service Robot Paper Finalist, ICRA 2021</i></strong></font>-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2103.14300">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=FySXRzmji8Y">Video</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=qbTSNz9SUe4">Seminar</a>-->
-<!--              /-->
-<!--              Media: <a href="https://www.newscientist.com/article/2273390-robot-guide-dog-could-help-people-who-are-blind-navigate/">New Scientist</a> &bull;-->
-<!--                     <a href="https://www.dailymail.co.uk/sciencetech/article-9441691/Robots-Scientists-develop-four-legged-guide-dog-bot-lead-blind-people-obstacles.html">Daily Mail</a> &bull;-->
-<!--                     <a href="https://techxplore.com/news/2021-04-robotic-dog-individuals.html">Tech Xplore</a> &bull;-->
-<!--                      <a href="https://www.dailycal.org/2021/04/12/uc-berkeley-researchers-create-robotic-guide-dog-for-visually-impaired-people">Daily Californian</a> &bull;-->
-<!--                      <a href="https://theindependent.sg/robotic-dog-to-guide-the-blind-and-visually-impaired/">Independent</a> &bull;-->
-<!--                      <a href="https://futurism.com/the-byte/scientists-replace-seeing-eye-dogs-robodogs">Futurism</a> &bull;-->
-<!--                      <a href="https://www.chinadaily.com.cn/a/202104/21/WS607f79e3a31024ad0bab9394.html">China Daily</a> &bull;-->
-<!--                      <a href="https://mp.weixin.qq.com/s/U0c1rOuDCF3dgkoG0zMx9Q">DeepTech (Chinese)</a>-->
-<!--              <br>-->
-<!--              <p>Quadrupedal robots can serve as guide dogs!</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/cbf-feasibility.PNG" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Safety-Critical Control with Optimal-decay Control Barrier Functions with Guaranteed Point-wise Feasibility</strong>-->
-<!--              <br>-->
-<!--              J. Zeng, B. Zhang, <strong>Z. Li</strong>, and K. Sreenath-->
-<!--              <br>-->
-<!--              <i>American Control Conference (ACC)</i>, 2021-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2103.12375">Paper</a>-->
-<!--              <br>-->
-<!--              <p>How can we ensure feasibility using Control Barrier Functions (CBFs) with bounded inputs?</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/emotive-cassie.PNG" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Animated Cassie: A Dynamic Relatable Robotic Character</strong><i class='bx bxs-cool bx-tada bx-rotate-270' ></i>-->
-<!--              <br>-->
-<!--              <strong>Z. Li</strong>, C. Cummings and K. Sreenath-->
-<!--              <br>-->
-<!--              <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2020-->
-<!--              <br>-->
-<!--              <font color="c0392b "><strong><i>Best Entertainment and Amusement Paper Finalist, IROS 2020</i></strong></font>-->
-<!--              <br>-->
-<!--              <a href="https://arxiv.org/abs/2009.02846">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=zjfzfgb3oK8">Video</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=tlvHw3YCyis">Seminar</a>-->
-<!--              /-->
-<!--              Media: <a href="https://spectrum.ieee.org/automaton/robotics/robotics-hardware/video-friday-japan-giant-gundam-robot">Video Friday</a>-->
-<!--              <br>-->
-<!--              <p>A bipedal robot can behave emotively to be a better human companion!</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-<!--          <tr>-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle"><img src="assets/img/ballbot-leading.PNG" alt="" width="260"/></td>-->
-<!--            <td style="padding:0px;width:75%;vertical-align:middle">-->
-<!--              <strong>Toward A Ballbot for Physically Leading People: A Human-Centered Approach</strong>-->
-<!--              <br>-->
-<!--              <strong>Z. Li</strong>, and R. Hollis-->
-<!--              <br>-->
-<!--              <i>International Conference on Intelligent Robots and Systems (IROS)</i>, 2019-->
-<!--              <br>-->
-<!--              <a href="https://ieeexplore.ieee.org/document/8968546">Paper</a>-->
-<!--              /-->
-<!--              <a href="https://www.youtube.com/watch?v=tbdWu6k_NL8">Video</a>-->
-<!--              /-->
-<!--              Media: <a href="https://spectrum.ieee.org/video-friday-mit-mini-cheetah-robots">Video Friday</a>-->
-<!--              <br>-->
-<!--              <p>A ballbot that can lead a blind-folded person to navigate environments. <strong>This is how my story begins.</strong></p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-        </table>
-
-
-        <!-- <h4><strong>Conference Papers in Review</strong></h4>
-        <table>
-
-
-        </table> -->
-
+              <p class="publication-links"><a href="https://doi.org/10.1016/j.aei.2022.101812" target="_blank" rel="noopener noreferrer">Paper</a><span aria-hidden="true"> / </span><a href="https://www.youtube.com/watch?v=fFjVKiR39pc" target="_blank" rel="noopener noreferrer">Video</a></p>
+              <p class="publication-summary">An integrated inverse kinematics and redundancy resolution framework that generates smooth, human-like arm configurations for anthropomorphic manipulation.</p>
+            </div>
+          </article>
         </div>
+        <div class="publication-group" id="bimanual-manipulation">
+          <h3>Bimanual Manipulation</h3>
+          <p class="topic-summary">Coordinated dual-arm skills, interactive adaptation, planning and general-purpose manipulation policies.</p>
+          <article class="publication-entry" id="paper-reat" data-first-author="true" data-date="2026-10-09">
+            <a class="publication-visual" href="https://arxiv.org/abs/2610.13093" target="_blank" rel="noopener noreferrer" aria-label="Read ReAT: Residual Action Tokenization for Autoregressive Robot Policies"><img src="assets/img/ReAT.png" alt="ReAT reconstruction-conditioned residual action tokenization architecture" loading="lazy" decoding="async"></a>
+            <div class="publication-content">
+              <h4>ReAT: Residual Action Tokenization for Autoregressive Robot Policies</h4>
+              <p class="publication-authors">Dijia Zhan<sup>*</sup>, <strong>Zhuo Li</strong><sup>*</sup>, Xuemiao Xu, Sun Zheng, Jinyi Li, Wenjun Wang, Jie Tang</p>
+              <p class="publication-venue"><em>arXiv preprint</em>, 2026</p>
 
+              <p class="publication-links"><a href="https://arxiv.org/abs/2610.13093" target="_blank" rel="noopener noreferrer">Paper</a></p>
+              <p class="publication-summary">Residual action tokens progressively correct the decoded action reconstruction, enabling compact autoregressive robot policies with explicit, self-corrective refinement.</p>
+            </div>
+          </article>
+          <article class="publication-entry" id="paper-vla-pilot" data-first-author="true" data-date="2026-05-01">
+            <a class="publication-visual" href="https://arxiv.org/abs/2511.14178" target="_blank" rel="noopener noreferrer" aria-label="Read Towards Deploying VLA without Fine-Tuning: Plug-and-Play Inference-Time VLA Policy Steering via Embodied Evolutionary Diffusion"><img src="assets/img/VLA-Pilot.png" alt="VLA-Pilot plug-and-play inference-time policy steering framework" loading="lazy" decoding="async"></a>
+            <div class="publication-content">
+              <h4>Towards Deploying VLA without Fine-Tuning: Plug-and-Play Inference-Time VLA Policy Steering via Embodied Evolutionary Diffusion</h4>
+              <p class="publication-authors"><strong>Zhuo Li</strong>, Junjia Liu, Zhipeng Dong, Tao Teng, Quentin Rouxel, Darwin Caldwell, Fei Chen</p>
+              <p class="publication-venue"><em>IEEE Robotics and Automation Letters (RA-L)</em>, 2026</p>
 
+              <p class="publication-links"><a href="https://arxiv.org/abs/2511.14178" target="_blank" rel="noopener noreferrer">Paper</a><span aria-hidden="true"> / </span><a href="https://www.youtube.com/watch?v=iDiDtVhp4tI" target="_blank" rel="noopener noreferrer">Video</a><span aria-hidden="true"> / </span><a href="https://mp.weixin.qq.com/s?__biz=MzE5MTUzODc5OQ==&amp;mid=2247492912&amp;idx=1&amp;sn=c5bf650e03ff4798eb69a52adf0209c1" target="_blank" rel="noopener noreferrer">Media coverage (WeChat)</a><span aria-hidden="true"> / </span><a href="https://rip4kobe.github.io/vla-pilot/" target="_blank" rel="noopener noreferrer">Project</a></p>
+              <p class="publication-summary">Plug-and-play inference-time steering improves the zero-shot deployment of pre-trained VLA policies without additional fine-tuning or demonstration collection.</p>
+            </div>
+          </article>
+          <article class="publication-entry" id="paper-bisail" data-first-author="true" data-date="2026-03-27">
+            <a class="publication-visual" href="https://arxiv.org/abs/2603.26466" target="_blank" rel="noopener noreferrer" aria-label="Read Adapt as You Say: Online Interactive Bimanual Skill Adaptation via Human Language Feedback"><img src="assets/img/BiSAIL.jpg" alt="BiSAIL online bimanual skill adaptation through human language feedback" loading="lazy" decoding="async"></a>
+            <div class="publication-content">
+              <h4>Adapt as You Say: Online Interactive Bimanual Skill Adaptation via Human Language Feedback</h4>
+              <p class="publication-authors"><strong>Zhuo Li</strong>, Dianxi Li, Tao Teng, Quentin Rouxel, Zhipeng Dong, Dennis Hong, Darwin Caldwell, Fei Chen</p>
+              <p class="publication-venue"><em>arXiv preprint · Submitted to IEEE/ASME Transactions on Mechatronics</em>, 2026</p>
+
+              <p class="publication-links"><a href="https://arxiv.org/abs/2603.26466" target="_blank" rel="noopener noreferrer">Paper</a><span aria-hidden="true"> / </span><a href="https://www.youtube.com/watch?v=JkaxUblCGz0" target="_blank" rel="noopener noreferrer">Video</a><span aria-hidden="true"> / </span><a href="https://rip4kobe.github.io/BiSAIL/" target="_blank" rel="noopener noreferrer">Project</a></p>
+              <p class="publication-summary">BiSAIL adapts learned bimanual skills online through interactive language feedback, combining multimodal objective reasoning, diffusion modulation and closed-loop refinement.</p>
+            </div>
+          </article>
+          <article class="publication-entry" id="paper-manidp" data-first-author="true" data-date="2025-10">
+            <a class="publication-visual" href="https://arxiv.org/abs/2510.23016" target="_blank" rel="noopener noreferrer" aria-label="Read ManiDP: Manipulability-Aware Diffusion Policy for Posture-Dependent Bimanual Manipulation"><img src="assets/img/ManiDP.png" alt="ManiDP manipulability-aware bimanual manipulation" loading="lazy" decoding="async"></a>
+            <div class="publication-content">
+              <h4>ManiDP: Manipulability-Aware Diffusion Policy for Posture-Dependent Bimanual Manipulation</h4>
+              <p class="publication-authors"><strong>Zhuo Li</strong>, Junjia Liu, Dianxi Li, Tao Teng, Miao Li, Sylvain Calinon, Darwin Caldwell, Fei Chen</p>
+              <p class="publication-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2025</p>
+              <p class="publication-award">Best Paper Award · IROS 2025 Bimanual Manipulation Workshop (BM-H2IC)</p>
+              <p class="publication-links"><a href="https://arxiv.org/abs/2510.23016" target="_blank" rel="noopener noreferrer">Paper</a><span aria-hidden="true"> / </span><a href="https://www.youtube.com/watch?v=ZlE_d1kU_Pk" target="_blank" rel="noopener noreferrer">Video</a></p>
+              <p class="publication-summary">A manipulability-aware diffusion policy learns coordinated dual-arm trajectories while optimizing arm configurations for posture-dependent manipulation requirements.</p>
+            </div>
+          </article>
+          <article class="publication-entry" id="paper-p-mpcic" data-first-author="false" data-date="2026-01-30">
+            <a class="publication-visual" href="https://ieeexplore.ieee.org/document/11369905/" target="_blank" rel="noopener noreferrer" aria-label="Read Passive Model Predictive Cooperative Interaction Control for Bimanual Humanoid Manipulation"><div class="publication-placeholder" aria-hidden="true"><strong>P-MPCIC</strong><span>Coordination + interaction control</span></div></a>
+            <div class="publication-content">
+              <h4>Passive Model Predictive Cooperative Interaction Control for Bimanual Humanoid Manipulation</h4>
+              <p class="publication-authors">Tao Teng, Yiming Chen, Chenzui Li, <strong>Zhuo Li</strong>, Miao Li, Chenguang Yang, Darwin Caldwell, Fei Chen</p>
+              <p class="publication-venue"><em>IEEE Transactions on Automation Science and Engineering (T-ASE)</em>, 2026</p>
+
+              <p class="publication-links"><a href="https://ieeexplore.ieee.org/document/11369905/" target="_blank" rel="noopener noreferrer">Paper</a></p>
+              <p class="publication-summary">Model predictive cooperative interaction control coordinates dual-arm motion and force distribution while enforcing passivity for safe humanoid manipulation.</p>
+            </div>
+          </article>
+          <article class="publication-entry" id="paper-obiman" data-first-author="false" data-date="2025-10">
+            <a class="publication-visual" href="https://ieeexplore.ieee.org/document/11247026/" target="_blank" rel="noopener noreferrer" aria-label="Read Open-World Task Planning for Humanoid Bimanual Dexterous Manipulation via Vision-Language Models"><div class="publication-placeholder" aria-hidden="true"><strong>OBiMan</strong><span>Open-world bimanual planning</span></div></a>
+            <div class="publication-content">
+              <h4>Open-World Task Planning for Humanoid Bimanual Dexterous Manipulation via Vision-Language Models</h4>
+              <p class="publication-authors">Zixin Tang, Zhihao Li, Junjia Liu, <strong>Zhuo Li</strong>, Fei Chen</p>
+              <p class="publication-venue"><em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em>, 2025</p>
+
+              <p class="publication-links"><a href="https://ieeexplore.ieee.org/document/11247026/" target="_blank" rel="noopener noreferrer">Paper</a><span aria-hidden="true"> / </span><a href="https://github.com/Zixin-Tang/OBiMan" target="_blank" rel="noopener noreferrer">Code</a></p>
+              <p class="publication-summary">A vision-language planner and benchmark for open-world bimanual dexterous manipulation, combining scenario grounding, workspace constraints and long-horizon cooperative reasoning.</p>
+            </div>
+          </article>
+          <article class="publication-entry" id="paper-llm-symbolic-planner" data-first-author="false" data-date="2024-12">
+            <a class="publication-visual" href="https://ieeexplore.ieee.org/document/10907585/" target="_blank" rel="noopener noreferrer" aria-label="Read Instruction-Following Long-Horizon Manipulation by LLM-Empowered Symbolic Planner"><img src="assets/img/ROBIO.png" alt="LLM-empowered symbolic planning for long-horizon manipulation" loading="lazy" decoding="async"></a>
+            <div class="publication-content">
+              <h4>Instruction-Following Long-Horizon Manipulation by LLM-Empowered Symbolic Planner</h4>
+              <p class="publication-authors">Zhihao Li, Junjia Liu, <strong>Zhuo Li</strong>, Minghao Yu, Tao Teng, Shunbo Zhou, Miao Li, Tin Lun Lam, Fei Chen</p>
+              <p class="publication-venue"><em>IEEE International Conference on Robotics and Biomimetics (ROBIO)</em>, 2024</p>
+
+              <p class="publication-links"><a href="https://ieeexplore.ieee.org/document/10907585/" target="_blank" rel="noopener noreferrer">Paper</a></p>
+              <p class="publication-summary">Language, vision and symbolic planning are combined to execute instruction-following, long-horizon bimanual mobile manipulation tasks.</p>
+            </div>
+          </article>
+        </div>
+        <div class="publication-group" id="whole-body-manipulation">
+          <h3>Whole-Body Manipulation</h3>
+          <p class="topic-summary">World-action models, whole-body coordination and transferable humanoid behavior.</p>
+          <article class="publication-entry" id="paper-wholebodywam" data-first-author="true" data-date="2026-09-15">
+            <a class="publication-visual" href="https://arxiv.org/abs/2609.16644" target="_blank" rel="noopener noreferrer" aria-label="Read WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination"><img src="assets/img/WholeBodyWAM.webp" alt="WholeBodyWAM prior-preserving world-action model and whole-body controller grounding overview" loading="lazy" decoding="async"></a>
+            <div class="publication-content">
+              <h4>WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination</h4>
+              <p class="publication-authors"><strong>Zhuo Li</strong>, Yiming Yao, Jim Tan, Mengjie Jing, Zhipeng Dong, Fei Chen</p>
+              <p class="publication-venue"><em>arXiv preprint</em>, 2026</p>
+
+              <p class="publication-links"><a href="https://arxiv.org/abs/2609.16644" target="_blank" rel="noopener noreferrer">Paper</a><span aria-hidden="true"> / </span><a href="https://wholebodywam.github.io/#demonstrations" target="_blank" rel="noopener noreferrer">Video</a><span aria-hidden="true"> / </span><a href="https://mp.weixin.qq.com/s/CTGaeoUjVg5YURtXy7uJKA" target="_blank" rel="noopener noreferrer">Media coverage (WeChat)</a><span aria-hidden="true"> / </span><a href="https://wholebodywam.github.io/" target="_blank" rel="noopener noreferrer">Project</a></p>
+              <p class="publication-summary">A world-action model extends pre-trained manipulation priors to humanoid loco-manipulation through unified whole-body controller grounding and coordination-aware attention.</p>
+            </div>
+          </article>
+          <article class="publication-entry" id="paper-hotu" data-first-author="false" data-date="2025-03">
+            <a class="publication-visual" href="https://ieeexplore.ieee.org/document/10859269/" target="_blank" rel="noopener noreferrer" aria-label="Read Human–Humanoid Robots’ Cross-Embodiment Behavior-Skill Transfer Using Decomposed Adversarial Learning from Demonstration: HOTU, a Human–Humanoid Robots’ Skill Transfer Framework"><img src="assets/img/HOTO.png" alt="Human-to-humanoid cross-embodiment behavior and skill transfer" loading="lazy" decoding="async"></a>
+            <div class="publication-content">
+              <h4>Human–Humanoid Robots’ Cross-Embodiment Behavior-Skill Transfer Using Decomposed Adversarial Learning from Demonstration: HOTU, a Human–Humanoid Robots’ Skill Transfer Framework</h4>
+              <p class="publication-authors">Junjia Liu, <strong>Zhuo Li</strong>, Minghao Yu, Zhipeng Dong, Sylvain Calinon, Darwin Caldwell, Fei Chen</p>
+              <p class="publication-venue"><em>IEEE Robotics &amp; Automation Magazine (RAM)</em>, 2025</p>
+
+              <p class="publication-links"><a href="https://ieeexplore.ieee.org/document/10859269/" target="_blank" rel="noopener noreferrer">Paper</a></p>
+              <p class="publication-summary">A unified digital human prototype supports transferable behavior and manipulation skills across humanoid embodiments, reducing the need to retrain for every robot platform.</p>
+            </div>
+          </article>
+        </div>
       </div>
-    </section><!-- End Portfolio Section -->
+    </section>
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="opensource" class="open-source">
       <div class="container">
-
-<!--        <div class="section-title">-->
-<!--          <h2>Teaching</h2>-->
-
-<!--          <table class="spacer">-->
-<!--            <tr>-->
-<!--              <td>UC Berkeley</td>-->
-<!--              <td>&nbsp;&nbsp;[DEWA]: Optimization & Machine Learning with Applications to Energy Systems</td>-->
-<!--              <td>&nbsp;&nbsp;<i>Graudate Level</i></td>-->
-<!--              <td>&nbsp;&nbsp;<i>Class Size:~30</i></td>-->
-<!--              <td>&nbsp;&nbsp;<i>2020-2024</i></td>-->
-<!--            </tr>-->
-<!--            <tr>-->
-<!--              <td>UC Berkeley</td>-->
-<!--              <td>&nbsp;&nbsp;[E7]: Introduction to Computer Programming for Scientists and Engineers</td>-->
-<!--              <td>&nbsp;&nbsp;<i>Undergraudate Level</i></td>-->
-<!--              <td>&nbsp;&nbsp;<i>Class Size:~200</i></td>-->
-<!--              <td>&nbsp;&nbsp;<i>Fall 2020</i></td>-->
-<!--            </tr>-->
-<!--            <tr>-->
-<!--              <td>Zhejiang University</td>-->
-<!--              <td>&nbsp;&nbsp;Voluntary teacher in an underrepresented primary school</td>-->
-<!--              <td>&nbsp;&nbsp;<i>K-12</i></td>-->
-<!--              <td>&nbsp;&nbsp;<i>Class Size:~160</i></td>-->
-<!--              <td>&nbsp;&nbsp;<i>Part time in 2014-2015</i></td>-->
-<!--            </tr>-->
-<!--          </table>-->
-<!--          <br>-->
-<!--          <br>-->
-          <h2>Academic Services</h2>
-           <ul>
-            <li><strong>Journal Reviewer:</strong><br>  
-              Transactions on Automation Science and Engineering (TASE), Robotics and Automation Letters (RA-L), Robotics & Automation Magazine (RAM), Transactions on Cognitive and Developmental Systems (TCDS).
-            </li>
-            <li><strong>Conference Reviewer:</strong><br> 
-              International Conference on Robotics and Automation (ICRA), International Conference on Intelligent Robots and Systems (IROS), International Conference on Humanoid Robots (Humanoids), International Conference on Automation Science and Engineering (CASE).
-            </li>
-          </ul>
-
-        </div>
-
-
+        <div class="section-title"><h2>Open Source</h2></div>
+        <article class="opensource-card">
+          <div class="opensource-icon" aria-hidden="true"><i class="bx bx-code-alt"></i></div>
+          <div><h3><a href="https://github.com/Skylark0924/Rofunc" target="_blank" rel="noopener noreferrer">Rofunc</a></h3>
+            <p>A Python toolkit for robot learning from demonstration and manipulation, covering demonstration collection, data processing, imitation and reinforcement learning, planning, and control.</p>
+            <p class="opensource-links"><a href="https://github.com/Skylark0924/Rofunc" target="_blank" rel="noopener noreferrer">GitHub repository</a> · <a href="https://rofunc.readthedocs.io/" target="_blank" rel="noopener noreferrer">Documentation</a></p>
+          </div>
+        </article>
       </div>
-    </section><!-- End Services Section -->
+    </section>
 
+    <section id="services" class="services section-bg">
+      <div class="container">
+        <div class="section-title"><h2>Academic Services</h2></div>
+        <ul>
+          <li><strong>Journal Reviewer:</strong><br>Transactions on Automation Science and Engineering (TASE), Robotics and Automation Letters (RA-L), Robotics &amp; Automation Magazine (RAM), Transactions on Cognitive and Developmental Systems (TCDS).</li>
+          <li><strong>Conference Reviewer:</strong><br>International Conference on Robotics and Automation (ICRA), International Conference on Intelligent Robots and Systems (IROS), International Conference on Humanoid Robots (Humanoids), International Conference on Automation Science and Engineering (CASE).</li>
+        </ul>
+      </div>
+    </section>
 
-  </main><!-- End #main -->
+  </main>
+<!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -993,6 +368,22 @@
   </footer><!-- End  Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+  <dialog id="wechat-contact" class="contact-dialog" aria-labelledby="wechat-title">
+    <button class="dialog-close" type="button" data-close-dialog aria-label="Close WeChat QR code">&times;</button>
+    <h2 id="wechat-title">Connect on WeChat</h2>
+    <p>Scan this QR code in WeChat to add me.</p>
+    <img src="assets/img/wechat-qr.png" alt="Zhuo Li's WeChat contact QR code" width="250" height="247">
+    <p><a href="https://u.wechat.com/MOHzas-GpXkShfh8ODxIbF4?s=2" target="_blank" rel="noopener noreferrer">Open in WeChat</a></p>
+  </dialog>
+  <dialog id="xiaohongshu-contact" class="contact-dialog" aria-labelledby="xiaohongshu-title">
+    <button class="dialog-close" type="button" data-close-dialog aria-label="Close Xiaohongshu QR code">&times;</button>
+    <h2 id="xiaohongshu-title">Follow on Xiaohongshu</h2>
+    <p>Research updates, demos and talk recordings.</p>
+    <img src="assets/img/xiaohongshu-qr.png" alt="Zhuo Li's Xiaohongshu profile QR code" width="236" height="235">
+    <p><a href="https://www.xiaohongshu.com/user/profile/5b6c5de0f7e8b90498e0f7fb" target="_blank" rel="noopener noreferrer">Open profile</a></p>
+  </dialog>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
